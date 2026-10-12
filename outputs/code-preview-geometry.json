@@ -1,0 +1,482 @@
+[
+  {
+    "url": "/previews/alert/4-3780.html",
+    "expected": [
+      343,
+      56
+    ],
+    "actual": [
+      343,
+      56
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/avatar/4-3740.html",
+    "expected": [
+      72,
+      72
+    ],
+    "actual": [
+      72,
+      72
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/buttons/4-3573.html",
+    "expected": [
+      144,
+      48
+    ],
+    "actual": [
+      143.75,
+      48
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/bottomsheet/4797-1119.html",
+    "expected": [
+      375,
+      383
+    ],
+    "actual": [
+      375,
+      383
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/badge/4690-7816.html",
+    "expected": [
+      45,
+      20
+    ],
+    "actual": [
+      44.375,
+      20
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/cell-item/4-3426.html",
+    "expected": [
+      343,
+      36
+    ],
+    "actual": [
+      343,
+      36
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/checkbox-radio-option/4-3408.html",
+    "expected": [
+      343,
+      48
+    ],
+    "actual": [
+      343,
+      48
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/circular-button/4-3553.html",
+    "expected": [
+      84,
+      80
+    ],
+    "actual": [
+      84,
+      80
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/contextual-menu/12874-2235.html",
+    "expected": [
+      260,
+      480
+    ],
+    "actual": [
+      260,
+      480
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/divider/4-3818.html",
+    "expected": [
+      343,
+      0
+    ],
+    "actual": [
+      343,
+      0
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/empty-state/116-9547.html",
+    "expected": [
+      343,
+      406
+    ],
+    "actual": [
+      343,
+      406
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/filter/11824-1800.html",
+    "expected": [
+      98,
+      36
+    ],
+    "actual": [
+      97.109375,
+      36
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/inputs/3254-3395.html",
+    "expected": [
+      343,
+      72
+    ],
+    "actual": [
+      343,
+      72
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/information-message/10437-4711.html",
+    "expected": [
+      343,
+      64
+    ],
+    "actual": [
+      343,
+      64
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/instruction/4-3838.html",
+    "expected": [
+      343,
+      32
+    ],
+    "actual": [
+      343,
+      32
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/introduction/4-3873.html",
+    "expected": [
+      343,
+      92
+    ],
+    "actual": [
+      343,
+      92
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/menu-bar/11768-13185.html",
+    "expected": [
+      375,
+      80
+    ],
+    "actual": [
+      375,
+      80
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/navigation-option/3496-391.html",
+    "expected": [
+      343,
+      92
+    ],
+    "actual": [
+      343,
+      92
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/nudge/4-3502.html",
+    "expected": [
+      343,
+      152
+    ],
+    "actual": [
+      343,
+      152
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/popup/11908-999.html",
+    "expected": [
+      343,
+      498
+    ],
+    "actual": [
+      343,
+      497.96875
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/pagination/11766-12980.html",
+    "expected": [
+      36,
+      5
+    ],
+    "actual": [
+      36,
+      5
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/progress-bar/12029-4125.html",
+    "expected": [
+      40,
+      40
+    ],
+    "actual": [
+      40,
+      40
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/section-header/13396-18807.html",
+    "expected": [
+      343,
+      20
+    ],
+    "actual": [
+      343,
+      20
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/skeleton-loading/10439-5128.html",
+    "expected": [
+      100,
+      16
+    ],
+    "actual": [
+      100,
+      16
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/snack-message/12539-1348.html",
+    "expected": [
+      343,
+      48
+    ],
+    "actual": [
+      343,
+      48
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/snackbar/12542-189.html",
+    "expected": [
+      343,
+      56
+    ],
+    "actual": [
+      343,
+      56
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/status/4-3448.html",
+    "expected": [
+      55,
+      20
+    ],
+    "actual": [
+      54.109375,
+      20
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/steps/16060-1001.html",
+    "expected": [
+      375,
+      88
+    ],
+    "actual": [
+      375,
+      88
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/switch-languages/11852-10921.html",
+    "expected": [
+      40,
+      40
+    ],
+    "actual": [
+      40,
+      40
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/top-navigation/12564-11488.html",
+    "expected": [
+      375,
+      56
+    ],
+    "actual": [
+      375,
+      56
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/tabs/11824-1801.html",
+    "expected": [
+      114,
+      36
+    ],
+    "actual": [
+      113.109375,
+      36
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/toggle/4-3490.html",
+    "expected": [
+      52,
+      32
+    ],
+    "actual": [
+      52,
+      32
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/tooltip/4475-382.html",
+    "expected": [
+      70,
+      44
+    ],
+    "actual": [
+      69.171875,
+      44
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/overlay/19-6245.html",
+    "expected": [
+      375,
+      812
+    ],
+    "actual": [
+      375,
+      812
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/banner/11034-81239.html",
+    "expected": [
+      343,
+      104
+    ],
+    "actual": [
+      343,
+      104
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/select-location/12834-6090.html",
+    "expected": [
+      343,
+      88
+    ],
+    "actual": [
+      343,
+      88
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/keyboard/12841-524.html",
+    "expected": [
+      375,
+      373
+    ],
+    "actual": [
+      375,
+      373
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/otp/11882-759.html",
+    "expected": [
+      343,
+      48
+    ],
+    "actual": [
+      343,
+      48
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/mini-app/15543-4862.html",
+    "expected": [
+      375,
+      936
+    ],
+    "actual": [
+      375,
+      936
+    ],
+    "missingImages": 0
+  },
+  {
+    "url": "/previews/support-native/16292-9631.html",
+    "expected": [
+      375,
+      812
+    ],
+    "actual": [
+      375,
+      812
+    ],
+    "missingImages": 0
+  }
+]

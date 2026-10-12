@@ -1,0 +1,8 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="375" height="812" viewBox="0 0 375 812" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Overlay">
+<foreignObject x="-16" y="-16" width="407" height="844"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(8px);clip-path:url(#bgblur_0_0_6_clip_path);height:100%;width:100%"></div></foreignObject><path id="Overlay_2" data-figma-bg-blur-radius="16" d="M0 0H375V812H0V0Z" fill="#0A162D" fill-opacity="0.9"/>
+</g>
+<defs>
+<clipPath id="bgblur_0_0_6_clip_path" transform="translate(16 16)"><path d="M0 0H375V812H0V0Z"/>
+</clipPath></defs>
+</svg>

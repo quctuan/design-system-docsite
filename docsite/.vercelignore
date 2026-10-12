@@ -1,0 +1,15 @@
+dist
+dist/**
+.dist-build
+.dist-build/**
+.dist-previous
+.dist-previous/**
+.vercel
+.vercel/**
+node_modules
+node_modules/**
+.env*
+.DS_Store
+**/.DS_Store
+vendor/npm-cache
+vendor/npm-cache/**

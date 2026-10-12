@@ -1,0 +1,26 @@
+{
+  "pagesChecked": 68,
+  "sourcePages": 60,
+  "tokens": 420,
+  "values": 506,
+  "textNodeReferences": 6297,
+  "components": 2126,
+  "componentDocs": 40,
+  "normalizedVariants": 571,
+  "exactRootBindings": 4566,
+  "assets": 123,
+  "galleryImages": 1379,
+  "brokenInternalLinks": 0,
+  "reviewDate": "2026-10-01T03:13:08.952Z",
+  "uiChecks": {
+    "selectedVariantContext": "Alert Warning 4:3789; clipboard pasted into UI and checked",
+    "brandMode": "Badge VNPT #eaf1ff → VIBE CLUB #3c1e88",
+    "largeCatalogue": "Badge last of 198 variants loads correct spec",
+    "nativePreviews": 40,
+    "mobile": "Inputs 390×844 requested viewport; no page overflow",
+    "specDownload": "Browser-downloaded alert.json matches generated spec exactly",
+    "logo": "Exact original PNG used for header, favicon and Apple touch icon",
+    "consoleErrors": 0
+  },
+  "nativeImplementation": "No verified Swift/Kotlin/Java SDK. Native framework and sizing policy are unspecified."
+}

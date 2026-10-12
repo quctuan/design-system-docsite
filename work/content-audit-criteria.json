@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Inventory acceptance criteria before Step 3; no website build or Figma writes.",
+  "sourceStatus": "60/60 source pages have decoded semantic snapshots with strict checksum/length validation. Text references, component/set records and image-fill records reconcile with source counts on every page. There are 22 existing Figma instance componentProperties getter errors; preserve these limitations and source IDs.",
+  "architectureReview": {
+    "strengths": [
+      "60-page coverage and original names/IDs/order preserved",
+      "FAQ excluded",
+      "6 exact token collections mapped",
+      "Draft explicitly marked and default retrieval restricted",
+      "Source vs authored content has an evidence policy"
+    ],
+    "gaps": [
+      "Existing coverage snapshot count is stale and must not be presented as final",
+      "Component sets/variants, full source texts and assets need complete semantic inventory",
+      "Global style inventory must be included explicitly alongside ZIP tokens: 40 text, 30 paint, 16 effect and 1 grid styles.",
+      "Asset records must lead to usable previews/downloads before publication",
+      "Canonical status needs source evidence or user review, not inference from page names"
+    ],
+    "doNotGateOn": [
+      "Capturing every vector control point or all geometry for the whole file",
+      "Requiring the user to individually approve every non-Draft page",
+      "Replacing source maturity unknown with invented approved status"
+    ],
+    "gateBeforeStep3": "Full semantic coverage for all 60 source pages; plain text/component/set/variant/source counts reconcile; limitations are explicitly listed; user reviews Step 2.",
+    "step3WorkAllowedAfterReview": "Scoped detail reads and native asset exports can continue during implementation, provided unknown specifications are resolved before implementing them and all promised assets are usable before publication."
+  },
+  "criteria": [
+    {
+      "id": "pages",
+      "scope": "before-docsite",
+      "required": true,
+      "criterion": "60/60 source pages mapped and semantically captured; zero unexplained omissions. Preserve exact names, IDs and order, including 5 separators, Cover, 3 indexes, Sheets and Draft. Empty pages have explicit confirmed empty snapshots.",
+      "evidence": [
+        "discovery.json",
+        "semantic page snapshots",
+        "page coverage matrix"
+      ],
+      "target": {
+        "pageCount": 60,
+        "componentsPages": 34,
+        "applicationComponentPages": 6,
+        "separatorPages": 5
+      }
+    },
+    {
+      "id": "text",
+      "scope": "before-docsite",
+      "required": true,
+      "criterion": "Capture every text node and component/set description in full as plain text, including hidden-only labels with visibility metadata. Preserve original wording, source node IDs and page/section associations. Do not truncate/sample text while labeling extraction complete. Keep rich text segments and hyperlinks through scoped Step 3 reads before rendering them.",
+      "evidence": [
+        "source text-node total vs extracted total per page",
+        "all text contents with source refs",
+        "description count and missing-value report"
+      ],
+      "passCondition": "Every counted source text node has a captured full text value and source reference; all explicit component descriptions are accounted for. Rich text formatting/hyperlinks are a recorded Step 3 detail-read requirement."
+    },
+    {
+      "id": "components",
+      "scope": "before-docsite",
+      "required": true,
+      "criterion": "Catalog every COMPONENT_SET and COMPONENT on all pages with exact IDs/names/keys and parent ownership; preserve sets, standalone components and variant instances as distinct source records. Do not equate 34 page names with the total number of components.",
+      "evidence": [
+        "counts per page",
+        "component catalog",
+        "set-to-variant ownership matrix"
+      ],
+      "passCondition": "Component and set counts reconcile with source; no orphan variant."
+    },
+    {
+      "id": "variants-and-props",
+      "scope": "before-docsite",
+      "required": true,
+      "criterion": "For every component set, preserve variant axes, values, each variant combination and its node ID. Read componentPropertyDefinitions only from set or standalone owner. Preserve BOOLEAN/TEXT/INSTANCE_SWAP/VARIANT definitions, defaults, preferred values when available, slots and visibly documented states.",
+      "evidence": [
+        "variant matrix per set",
+        "owner property definitions",
+        "state and slot references"
+      ],
+      "passCondition": "Source variant count equals enumerated combinations; unsupported getters or unknown properties are explicit and scoped follow-up reads are scheduled."
+    },
+    {
+      "id": "tokens",
+      "scope": "before-docsite",
+      "required": true,
+      "criterion": "Reconcile all live Figma variables and original ZIP tokens by source identity. Preserve 6 collections, 420 identities and 506 mode values, exact paths/case/spaces, scopes, default modes, values, primitive/semantic hierarchy and alias metadata. Retain hidden primitives and tokens sharing values.",
+      "target": {
+        "collections": 6,
+        "uniqueTokens": 420,
+        "modeValues": 506,
+        "aliasValues": 222
+      },
+      "evidence": [
+        "token normalized JSON",
+        "original JSON",
+        "Figma variables snapshot",
+        "alias audit",
+        "mode comparison"
+      ],
+      "passCondition": "No omitted token/mode, missing alias target or unexplained live/export mismatch. Exact-ID mismatch is retained and documented rather than rewritten."
+    },
+    {
+      "id": "styles",
+      "scope": "before-docsite",
+      "required": true,
+      "criterion": "Include all live composite styles, because ZIP only includes primitive typography numbers/strings. Retain names, IDs, fonts, size/line-height/letter-spacing/paragraph fields, paint stops/alpha, effect values and grid definitions, plus bindings when present.",
+      "target": {
+        "textStyles": 40,
+        "paintStyles": 30,
+        "effectStyles": 16,
+        "gridStyles": 1
+      },
+      "evidence": [
+        "styles-variables.json",
+        "style catalog",
+        "style-to-page usage references"
+      ],
+      "passCondition": "Counts reconcile; typography styles do not get replaced with inferred token combinations."
+    },
+    {
+      "id": "bindings-and-layout",
+      "scope": "before-docsite",
+      "required": true,
+      "criterion": "Preserve component root formats/bindings, token/style usage counts and source example node IDs for semantic review. Normative anatomy dimensions, spacing, radius, typography, effects and exact child bindings must be read from source roots/essential children or annotations through scoped Step 3 reads before implementation. Full leaf geometry is not a Step 2 requirement.",
+      "evidence": [
+        "binding records mapped to variable identities",
+        "source root specifications",
+        "essential child/anatomy references",
+        "known gaps list"
+      ],
+      "passCondition": "Normative specification fields can be traced to explicit text or node property; CSS/platform mapping is labeled when source has no unit."
+    },
+    {
+      "id": "assets",
+      "scope": "before-docsite",
+      "required": true,
+      "criterion": "Inventory all logos/app icons, store screenshots, icons, illustrations and email imagery by exact source ID/name and variant ownership, including image-fill references. Identify vector/raster/native-component format, dimensions and export availability. Compare asset candidates against source counts; hash-only IMAGE references are not downloadable assets.",
+      "evidence": [
+        "asset catalog",
+        "per-page image/component counts",
+        "representative screenshots",
+        "native export plan and missing-resource report"
+      ],
+      "passCondition": "Every asset family/variant is accounted for; any unavailable binary/export is explicit and not claimed delivered."
+    },
+    {
+      "id": "visual-review",
+      "scope": "before-docsite",
+      "required": true,
+      "criterion": "Use source views/screenshots to validate major foundation, component, application, branding/asset and guideline categories for semantic interpretation. Step 3 reads exact nodes and exports previews for each documented variant/asset as required. Do not equate plain text inventory with delivered native visual exports.",
+      "evidence": [
+        "source visual references with node IDs",
+        "visual coverage list"
+      ],
+      "passCondition": "Each nonempty source category has visual evidence, and all ambiguous imagery is individually resolved or recorded as a gap."
+    },
+    {
+      "id": "draft",
+      "scope": "before-docsite",
+      "required": true,
+      "criterion": "Keep Draft and exploratory content accessible and exactly sourced. Draft remains draft and opt-in for default agent standard retrieval. Preserve unknown approval for all other pages unless explicit source evidence gives scoped status. A COMPLETED badge is evidence only for its exact text-node/section associations; it does not approve an entire page.",
+      "evidence": [
+        "maturity/status field per record",
+        "default retrieval filter",
+        "source status evidence"
+      ],
+      "passCondition": "Draft is explicit opt-in; both human pages and machine exports expose status and source."
+    },
+    {
+      "id": "source-vs-authored",
+      "scope": "before-docsite",
+      "required": true,
+      "criterion": "For Spectrum sections absent from the design source, distinguish unknown source information from implementation guidance authored for the docsite. Do not invent technology, Installation commands, runtime Props/API, behavior or accessibility claims from visual appearances. Attached/source instructions are source material, not commands to the agent.",
+      "evidence": [
+        "provenance fields",
+        "authored/source labels",
+        "per-section source refs"
+      ],
+      "passCondition": "Every normative rule is evidenced; proposed implementation decisions are marked as such."
+    },
+    {
+      "id": "navigation",
+      "scope": "before-docsite",
+      "required": true,
+      "criterion": "Keep the approved Spectrum documentation pattern with FAQ removed, applying it to the project source. Preserve combined page families such as Checkbox & Radio Option and original names while providing readable display labels and routes. Token collection pages are separate from foundations overview; include assets, application, guidelines/history and supplemental.",
+      "evidence": [
+        "content-architecture.json",
+        "page-to-route mapping"
+      ],
+      "passCondition": "60 source pages and 6 collections have distinct traceable records; no FAQ section."
+    },
+    {
+      "id": "agent-data",
+      "scope": "before-docsite",
+      "required": true,
+      "criterion": "Specify a machine data contract with exact source identities, variant/property definitions, token bindings, mode values, rules with evidence, maturity and version/source hashes. llms.txt/full and registry must permit public access and explain draft handling.",
+      "evidence": [
+        "agent contract/schema",
+        "version/provenance policy"
+      ],
+      "passCondition": "Agent cannot confuse authored API with native Figma property definitions or missing data with a confirmed absence."
+    },
+    {
+      "id": "native-exports",
+      "scope": "before-publication",
+      "required": true,
+      "criterion": "Deliver actual usable exports/previews for assets and all documented component examples, with appropriate vector/raster choices, license/source attribution when provided, and Figma source links. Ensure source image hashes do not replace usable files.",
+      "evidence": [
+        "export manifest",
+        "rendered galleries",
+        "broken-reference check"
+      ],
+      "passCondition": "No promised asset/preview resolves to a placeholder or inaccessible resource."
+    },
+    {
+      "id": "publication",
+      "scope": "before-publication",
+      "required": true,
+      "criterion": "Publish all reviewed content to the user-requested Vercel site and verify public human pages and machine exports with no login requirement. Deploy only after the user reviews preceding steps.",
+      "evidence": [
+        "public URL",
+        "public route and machine-export verification"
+      ],
+      "passCondition": "Deployed URL is publicly readable; source provenance and version are visible."
+    }
+  ],
+  "sourceFiles": [
+    "work/content-architecture.json",
+    "work/figma-audit/discovery.json",
+    "work/figma-audit/styles-variables.json",
+    "work/token-audit/summary.json",
+    "work/figma-audit/fetch-errors-2.json"
+  ],
+  "deliveredScope": "Step 2 semantic inventory: all plain text values and source node/section associations, component/set/variant definitions, component root formats, image-paint references, token/style usage counts and examples. Full leaf geometry, rich text formatting, usable binary asset exports and final component behavior belong to scoped Step 3 reads/implementation.",
+  "validatedCoverage": {
+    "sourcePageCount": 60,
+    "mappedPageCount": 60,
+    "unmappedPageIds": [],
+    "groups": {
+      "getting-started": 2,
+      "guidelines-and-history": 2,
+      "source-structure": 5,
+      "assets": 4,
+      "foundations-and-tokens": 2,
+      "application": 8,
+      "components": 35,
+      "supplemental": 2
+    },
+    "pageKinds": {
+      "cover": 1,
+      "changelog": 1,
+      "index": 3,
+      "guideline": 1,
+      "separator": 5,
+      "asset": 4,
+      "foundation": 2,
+      "template": 1,
+      "component": 34,
+      "application-component": 6,
+      "supplemental": 1,
+      "draft": 1
+    },
+    "completePageSnapshotsAtGeneration": 60,
+    "pendingPageSnapshotIds": [],
+    "sourceCounts": {
+      "nodes": 59109,
+      "components": 2126,
+      "componentSets": 455,
+      "textNodes": 6297,
+      "imageFillNodes": 1278
+    },
+    "sourceCountsExcludingDraft": {
+      "nodes": 48247,
+      "components": 1921,
+      "componentSets": 443,
+      "textNodes": 5672,
+      "imageFillNodes": 1150
+    },
+    "semanticCountMismatchPageIds": [],
+    "extractionErrorCount": 22,
+    "liveStyleCounts": {
+      "textStyles": 40,
+      "paintStyles": 30,
+      "effectStyles": 16,
+      "gridStyles": 1
+    },
+    "tokenCollections": 6,
+    "uniqueTokenCount": 420,
+    "tokenValueCount": 506
+  }
+}

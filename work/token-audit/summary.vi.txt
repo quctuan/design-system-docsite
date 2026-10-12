@@ -1,0 +1,53 @@
+Token audit — Design System.zip
+
+Đã đọc toàn bộ 7 JSON sau giải nén 6 ZIP collection. Counts khớp ảnh user.
+Tổng: 420 token danh tính; 506 giá trị theo mode (VNPT + VIBE CLUB).
+Type của giá trị: color 422, number 79, string 5.
+
+Collections:
+- _Global Colors: 250 tokens, modes: Value, 250 values.
+- _Global Dimension: 29 tokens, modes: Mode 1, 29 values.
+- 1. Color modes: 86 tokens, modes: VIBE CLUB, VNPT, 172 values.
+- 2. Radius: 12 tokens, modes: Mode 1, 12 values.
+- 3. Spacing: 17 tokens, modes: Mode 1, 17 values.
+- 4. Typography: 26 tokens, modes: Mode 1, 26 values.
+
+Alias validation:
+- 222 alias values được liên kết qua targetVariableSetName + targetVariableName có sẵn trong source; 0 target thiếu; 0 value mismatch.
+- Exact-ID lookup: 0/222. Alias target IDs mang hash và hậu tố /-1:-1, khác IDs local của primitive JSON. Giữ nguyên cả hai, không thay ID hoặc tự suy diễn identity.
+- Cả 2 mode có cùng 86 tên semantic và cùng variable IDs. 66 values thay đổi, 20 không đổi.
+- 250 primitive colors đều có hiddenFromPublishing: true. Cần giữ trong docsite vì user yêu cầu toàn bộ DS và semantic color aliases phụ thuộc chúng.
+- Không duplicate key JSON, không duplicate token theo collection+mode+name, không duplicate variable ID trong cùng mode.
+- 57 nhóm có cùng value là nhiều token có identity riêng, không tự collapse.
+
+Phân cấp màu:
+- Base 2; White-Alpha 9; Black-Alpha 9; Light 120 (12 palettes × 10); Dark 110 (11 palettes × 10).
+- Light có Gray, Brand, Green, Yellow, Red, Blue Sky, Cyan, Sunset, Warm, Blue Purple, Purple, Pink neon.
+- Dark có Gray, Brand, Green, Yellow, Red, Cyan, Sunset, Warm, Blue Purple, Purple, Pink neon. Không có Dark/Blue Sky trong export.
+- Semantic mỗi mode: content 26, border 12, bg 30, transparent 18.
+- Brand default của VNPT #3079FF; VIBE CLUB #6E12FF.
+- Tên source có case và space (Default/Strong/Medium/Light, blue purple, pink neon) và token transparent/white/bg-white-90; giữ nguyên để agent truy vết nguồn.
+
+Dimension / Radius / Spacing:
+- Global dimension: 0,2,4,6,8,10,12,14,16,18,20,24,26,28,30,32,36,40,44,48,52,56,60,64,80,96,128,160,999.
+- Radius: 0,2,4,6,8,10,12,16,20,24,32,999. radius-full = 999 (source number).
+- Spacing: 0,2,4,6,8,12,16,20,24,32,40,48,64,80,96,128,160.
+- Các number không có unit explicit trong ZIP. Mapping sang CSS px/rem cần xác nhận từ ngữ cảnh Figma hoặc chọn mapping implementation có ghi rõ.
+
+Typography:
+- Family: iOS = SF Pro Display; Android = Inter Tight.
+- Weight source là string: Regular, Medium, Bold. Chưa có numeric font-weight trong token ZIP.
+- Size 11: xxs10,xs12,sm14,md16,lg18,xl20,2xl24,3xl28,4xl32,5xl36,6xl40.
+- Line-height 10: xs16,sm20,md24,lg26,xl30,2xl32,3xl36,4xl40,5xl44,6xl52.
+- ZIP không chứa composite typography styles, effect/shadow styles, components, annotations, guideline. Cần bổ sung từ Figma.
+- Không token nào có $description. Không suy diễn mô tả nghiệp vụ chỉ từ tên.
+
+Files:
+- ../tokens-source/ chứa JSON gốc, ZIP nested và manifest.json.
+- tokens.normalized.json: toàn bộ 506 giá trị, rawToken, identity, path, mode, alias, metadata, audit resolution.
+- tokens.csv: bảng flat đọc được cho review.
+- collections.json / summary.json: counts + source hashes + checks.
+- alias-audit.json: 222 explicit alias mappings và retained target IDs.
+- mode-comparison.json: 86 tên color với VNPT/VIBE CLUB value + alias.
+- same-value-groups.json: nhóm equal values để review, không deduplicate.
+- audit_tokens.py: script audit tái chạy được.

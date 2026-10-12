@@ -1,0 +1,661 @@
+{
+  "group": 1,
+  "expectedPages": 20,
+  "verifiedPages": 20,
+  "parts": 31,
+  "byteLength": 2000361,
+  "pages": [
+    {
+      "page": {
+        "id": "2042:741",
+        "name": "📌 Change Log"
+      },
+      "parts": 1,
+      "byteLength": 1413,
+      "checksum": 193574785,
+      "sha256": "f97a21c80196e417ad466c08d60c1b64088e9418acb8874aee88b582b6e53e79",
+      "counts": {
+        "componentSets": 0,
+        "components": 0,
+        "imageFillNodes": 0,
+        "nodes": 30,
+        "textNodes": 13,
+        "types": {
+          "FRAME": 17,
+          "TEXT": 13
+        }
+      },
+      "uniqueTexts": 11,
+      "textNodeReferenceCount": 13,
+      "componentCatalogueCount": 0,
+      "assetMetadataCount": 0,
+      "sourceErrorsCount": 0,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "4694:20215",
+        "name": "---"
+      },
+      "parts": 1,
+      "byteLength": 276,
+      "checksum": 2557631162,
+      "sha256": "7a4379efed0bb3e82ffb6f992e9cedded44c9de5f921831aad11cd1d81b2ef2d",
+      "counts": {
+        "componentSets": 0,
+        "components": 0,
+        "imageFillNodes": 0,
+        "nodes": 0,
+        "textNodes": 0,
+        "types": {}
+      },
+      "uniqueTexts": 0,
+      "textNodeReferenceCount": 0,
+      "componentCatalogueCount": 0,
+      "assetMetadataCount": 0,
+      "sourceErrorsCount": 0,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "10357:22981",
+        "name": "---"
+      },
+      "parts": 1,
+      "byteLength": 277,
+      "checksum": 3872414447,
+      "sha256": "f22899acf0f7ac8629b73f56c812c124236e3bd102fe41acfd67be4d7e39dd3d",
+      "counts": {
+        "componentSets": 0,
+        "components": 0,
+        "imageFillNodes": 0,
+        "nodes": 0,
+        "textNodes": 0,
+        "types": {}
+      },
+      "uniqueTexts": 0,
+      "textNodeReferenceCount": 0,
+      "componentCatalogueCount": 0,
+      "assetMetadataCount": 0,
+      "sourceErrorsCount": 0,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "6:4698",
+        "name": "💜 Icons "
+      },
+      "parts": 8,
+      "byteLength": 778746,
+      "checksum": 2186090072,
+      "sha256": "27137b7a1b8a31e2f116dd45dd1ee7e14c9e890472658d7e875e1476fa1a6037",
+      "counts": {
+        "componentSets": 373,
+        "components": 1244,
+        "imageFillNodes": 251,
+        "nodes": 8475,
+        "textNodes": 217,
+        "types": {
+          "BOOLEAN_OPERATION": 33,
+          "COMPONENT": 1244,
+          "COMPONENT_SET": 373,
+          "ELLIPSE": 35,
+          "FRAME": 1464,
+          "GROUP": 536,
+          "INSTANCE": 353,
+          "LINE": 35,
+          "RECTANGLE": 378,
+          "SECTION": 1,
+          "TEXT": 217,
+          "VECTOR": 3806
+        }
+      },
+      "uniqueTexts": 186,
+      "textNodeReferenceCount": 217,
+      "componentCatalogueCount": 1617,
+      "assetMetadataCount": 251,
+      "sourceErrorsCount": 0,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "6:4662",
+        "name": "---"
+      },
+      "parts": 1,
+      "byteLength": 272,
+      "checksum": 1679317489,
+      "sha256": "4654bd3d37e0791b301eacabf000920c814cf5c1a8c39d2d85a18e245b5cd920",
+      "counts": {
+        "componentSets": 0,
+        "components": 0,
+        "imageFillNodes": 0,
+        "nodes": 0,
+        "textNodes": 0,
+        "types": {}
+      },
+      "uniqueTexts": 0,
+      "textNodeReferenceCount": 0,
+      "componentCatalogueCount": 0,
+      "assetMetadataCount": 0,
+      "sourceErrorsCount": 0,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "6:4429",
+        "name": "      ↳ Avatar"
+      },
+      "parts": 1,
+      "byteLength": 14774,
+      "checksum": 2788111645,
+      "sha256": "ddacb8bee5611738d22d2f1c9e9de7753f7c7449531f865d00b0d716b8411cfe",
+      "counts": {
+        "componentSets": 1,
+        "components": 8,
+        "imageFillNodes": 5,
+        "nodes": 47,
+        "textNodes": 9,
+        "types": {
+          "BOOLEAN_OPERATION": 4,
+          "COMPONENT": 8,
+          "COMPONENT_SET": 1,
+          "ELLIPSE": 5,
+          "FRAME": 7,
+          "INSTANCE": 4,
+          "TEXT": 9,
+          "VECTOR": 9
+        }
+      },
+      "uniqueTexts": 8,
+      "textNodeReferenceCount": 9,
+      "componentCatalogueCount": 9,
+      "assetMetadataCount": 5,
+      "sourceErrorsCount": 0,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "6:4454",
+        "name": "      ↳ Badge "
+      },
+      "parts": 2,
+      "byteLength": 443944,
+      "checksum": 2499956058,
+      "sha256": "ff160a914e9c4f8326a581bb6badc26c6c828ca60d7a566d4fdca1f7b18ca125",
+      "counts": {
+        "componentSets": 1,
+        "components": 198,
+        "imageFillNodes": 0,
+        "nodes": 857,
+        "textNodes": 218,
+        "types": {
+          "COMPONENT": 198,
+          "COMPONENT_SET": 1,
+          "ELLIPSE": 33,
+          "FRAME": 6,
+          "INSTANCE": 235,
+          "TEXT": 218,
+          "VECTOR": 166
+        }
+      },
+      "uniqueTexts": 15,
+      "textNodeReferenceCount": 218,
+      "componentCatalogueCount": 199,
+      "assetMetadataCount": 0,
+      "sourceErrorsCount": 0,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "6:4435",
+        "name": "      ↳ Circular Button"
+      },
+      "parts": 1,
+      "byteLength": 10933,
+      "checksum": 488507933,
+      "sha256": "1fa18496ccbd63aea94acb6959c319b7efad9520b1ee4855172b05670bf53c37",
+      "counts": {
+        "componentSets": 0,
+        "components": 1,
+        "imageFillNodes": 0,
+        "nodes": 65,
+        "textNodes": 12,
+        "types": {
+          "BOOLEAN_OPERATION": 2,
+          "COMPONENT": 1,
+          "FRAME": 14,
+          "GROUP": 3,
+          "INSTANCE": 16,
+          "RECTANGLE": 1,
+          "TEXT": 12,
+          "VECTOR": 16
+        }
+      },
+      "uniqueTexts": 9,
+      "textNodeReferenceCount": 12,
+      "componentCatalogueCount": 1,
+      "assetMetadataCount": 0,
+      "sourceErrorsCount": 0,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "116:8627",
+        "name": "      ↳ Empty State "
+      },
+      "parts": 1,
+      "byteLength": 11488,
+      "checksum": 507809046,
+      "sha256": "9f9578674d49bc351c40a1d9754918499dee132743168abe2319191b03bf824b",
+      "counts": {
+        "componentSets": 0,
+        "components": 1,
+        "imageFillNodes": 0,
+        "nodes": 103,
+        "textNodes": 15,
+        "types": {
+          "BOOLEAN_OPERATION": 2,
+          "COMPONENT": 1,
+          "FRAME": 14,
+          "GROUP": 11,
+          "INSTANCE": 16,
+          "RECTANGLE": 1,
+          "TEXT": 15,
+          "VECTOR": 43
+        }
+      },
+      "uniqueTexts": 11,
+      "textNodeReferenceCount": 15,
+      "componentCatalogueCount": 1,
+      "assetMetadataCount": 0,
+      "sourceErrorsCount": 0,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "116:9437",
+        "name": "      ↳ Information Message "
+      },
+      "parts": 1,
+      "byteLength": 19373,
+      "checksum": 665924135,
+      "sha256": "bea5c6334095142a4664437714bff21149cd92393fc6488b0d48f8d821bf9965",
+      "counts": {
+        "componentSets": 1,
+        "components": 3,
+        "imageFillNodes": 0,
+        "nodes": 68,
+        "textNodes": 13,
+        "types": {
+          "BOOLEAN_OPERATION": 2,
+          "COMPONENT": 3,
+          "COMPONENT_SET": 1,
+          "FRAME": 12,
+          "GROUP": 3,
+          "INSTANCE": 16,
+          "RECTANGLE": 1,
+          "TEXT": 13,
+          "VECTOR": 17
+        }
+      },
+      "uniqueTexts": 9,
+      "textNodeReferenceCount": 13,
+      "componentCatalogueCount": 4,
+      "assetMetadataCount": 0,
+      "sourceErrorsCount": 0,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "11685:4223",
+        "name": "      ↳ Menu Bar "
+      },
+      "parts": 3,
+      "byteLength": 299836,
+      "checksum": 504568088,
+      "sha256": "8ff5ae69f4cf2c2c21d5911025152a460bedb8c47e667f3c474026656bd89fdd",
+      "counts": {
+        "componentSets": 5,
+        "components": 14,
+        "imageFillNodes": 224,
+        "nodes": 4419,
+        "textNodes": 623,
+        "types": {
+          "BOOLEAN_OPERATION": 43,
+          "COMPONENT": 14,
+          "COMPONENT_SET": 5,
+          "ELLIPSE": 135,
+          "FRAME": 1074,
+          "GROUP": 407,
+          "INSTANCE": 738,
+          "RECTANGLE": 392,
+          "SLOT": 21,
+          "TEXT": 623,
+          "VECTOR": 967
+        }
+      },
+      "uniqueTexts": 178,
+      "textNodeReferenceCount": 623,
+      "componentCatalogueCount": 19,
+      "assetMetadataCount": 224,
+      "sourceErrorsCount": 13,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "6:4441",
+        "name": "      ↳ Popup "
+      },
+      "parts": 1,
+      "byteLength": 25005,
+      "checksum": 4047720629,
+      "sha256": "334252eb1d49d8a4161c09e6bf5dbf682ace7ed2f1041eee6137b62252570949",
+      "counts": {
+        "componentSets": 1,
+        "components": 5,
+        "imageFillNodes": 0,
+        "nodes": 151,
+        "textNodes": 39,
+        "types": {
+          "COMPONENT": 5,
+          "COMPONENT_SET": 1,
+          "FRAME": 39,
+          "INSTANCE": 47,
+          "TEXT": 39,
+          "VECTOR": 15,
+          "WIDGET": 5
+        }
+      },
+      "uniqueTexts": 10,
+      "textNodeReferenceCount": 39,
+      "componentCatalogueCount": 6,
+      "assetMetadataCount": 0,
+      "sourceErrorsCount": 0,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "6:4447",
+        "name": "      ↳ Section Header "
+      },
+      "parts": 1,
+      "byteLength": 85127,
+      "checksum": 2469655620,
+      "sha256": "13d9dc64a9582593021cfac586491cd8716e8a94b633d1cdcd5c434ca75f9bd8",
+      "counts": {
+        "componentSets": 1,
+        "components": 8,
+        "imageFillNodes": 14,
+        "nodes": 766,
+        "textNodes": 105,
+        "types": {
+          "BOOLEAN_OPERATION": 6,
+          "COMPONENT": 8,
+          "COMPONENT_SET": 1,
+          "ELLIPSE": 21,
+          "FRAME": 178,
+          "GROUP": 19,
+          "INSTANCE": 132,
+          "RECTANGLE": 163,
+          "TEXT": 105,
+          "VECTOR": 133
+        }
+      },
+      "uniqueTexts": 83,
+      "textNodeReferenceCount": 105,
+      "componentCatalogueCount": 9,
+      "assetMetadataCount": 14,
+      "sourceErrorsCount": 1,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "6:4451",
+        "name": "      ↳ Snackbar"
+      },
+      "parts": 1,
+      "byteLength": 13180,
+      "checksum": 4101887753,
+      "sha256": "63d4a64d4940dc22091ef71250f36c6e0921dbd4fb8a537f2ac161ce58e2e2ea",
+      "counts": {
+        "componentSets": 1,
+        "components": 2,
+        "imageFillNodes": 0,
+        "nodes": 63,
+        "textNodes": 13,
+        "types": {
+          "BOOLEAN_OPERATION": 2,
+          "COMPONENT": 2,
+          "COMPONENT_SET": 1,
+          "FRAME": 11,
+          "GROUP": 3,
+          "INSTANCE": 14,
+          "RECTANGLE": 1,
+          "TEXT": 13,
+          "VECTOR": 16
+        }
+      },
+      "uniqueTexts": 8,
+      "textNodeReferenceCount": 13,
+      "componentCatalogueCount": 3,
+      "assetMetadataCount": 0,
+      "sourceErrorsCount": 0,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "11852:10817",
+        "name": "      ↳ Switch Languages "
+      },
+      "parts": 1,
+      "byteLength": 12952,
+      "checksum": 2175373418,
+      "sha256": "191a8ba3df1cecf28eddf1c101b4486b35d4e6b48d6da4295bd4d653a04fb39f",
+      "counts": {
+        "componentSets": 2,
+        "components": 4,
+        "imageFillNodes": 0,
+        "nodes": 72,
+        "textNodes": 11,
+        "types": {
+          "COMPONENT": 4,
+          "COMPONENT_SET": 2,
+          "FRAME": 8,
+          "GROUP": 4,
+          "INSTANCE": 10,
+          "TEXT": 11,
+          "VECTOR": 33
+        }
+      },
+      "uniqueTexts": 9,
+      "textNodeReferenceCount": 11,
+      "componentCatalogueCount": 6,
+      "assetMetadataCount": 0,
+      "sourceErrorsCount": 0,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "6:4452",
+        "name": "      ↳ Toggle "
+      },
+      "parts": 1,
+      "byteLength": 8669,
+      "checksum": 3312045179,
+      "sha256": "64618b7e5270bb10d9ee536076a38e70dfa66eb66b2af4eb5692e1121e7f6972",
+      "counts": {
+        "componentSets": 1,
+        "components": 2,
+        "imageFillNodes": 0,
+        "nodes": 25,
+        "textNodes": 7,
+        "types": {
+          "COMPONENT": 2,
+          "COMPONENT_SET": 1,
+          "FRAME": 6,
+          "INSTANCE": 4,
+          "RECTANGLE": 4,
+          "TEXT": 7,
+          "VECTOR": 1
+        }
+      },
+      "uniqueTexts": 6,
+      "textNodeReferenceCount": 7,
+      "componentCatalogueCount": 3,
+      "assetMetadataCount": 0,
+      "sourceErrorsCount": 0,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "6:4458",
+        "name": "---"
+      },
+      "parts": 1,
+      "byteLength": 272,
+      "checksum": 1698847220,
+      "sha256": "b558fbbd7962443207a9a13ad94ca681a06b7520ef140b98ff25ff88f91100ae",
+      "counts": {
+        "componentSets": 0,
+        "components": 0,
+        "imageFillNodes": 0,
+        "nodes": 0,
+        "textNodes": 0,
+        "types": {}
+      },
+      "uniqueTexts": 0,
+      "textNodeReferenceCount": 0,
+      "componentCatalogueCount": 0,
+      "assetMetadataCount": 0,
+      "sourceErrorsCount": 0,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "12834:5716",
+        "name": "      ↳ Select Location  "
+      },
+      "parts": 1,
+      "byteLength": 25871,
+      "checksum": 1842550337,
+      "sha256": "e09f0937518c9857fc9f6cbad0e92e2336352bdfec783dca38af33f210e5b1c6",
+      "counts": {
+        "componentSets": 1,
+        "components": 4,
+        "imageFillNodes": 0,
+        "nodes": 401,
+        "textNodes": 75,
+        "types": {
+          "BOOLEAN_OPERATION": 6,
+          "COMPONENT": 4,
+          "COMPONENT_SET": 1,
+          "ELLIPSE": 7,
+          "FRAME": 122,
+          "GROUP": 10,
+          "INSTANCE": 104,
+          "RECTANGLE": 18,
+          "TEXT": 75,
+          "VECTOR": 54
+        }
+      },
+      "uniqueTexts": 34,
+      "textNodeReferenceCount": 75,
+      "componentCatalogueCount": 5,
+      "assetMetadataCount": 0,
+      "sourceErrorsCount": 0,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "15520:717",
+        "name": "      ↳ Mini App"
+      },
+      "parts": 2,
+      "byteLength": 225294,
+      "checksum": 772313861,
+      "sha256": "ca435660fb741ed0ad1254c546a208871d30bfe218af2ab6d0cb99471510659f",
+      "counts": {
+        "componentSets": 1,
+        "components": 8,
+        "imageFillNodes": 164,
+        "nodes": 5612,
+        "textNodes": 598,
+        "types": {
+          "BOOLEAN_OPERATION": 66,
+          "COMPONENT": 8,
+          "COMPONENT_SET": 1,
+          "CONNECTOR": 8,
+          "ELLIPSE": 56,
+          "FRAME": 1321,
+          "GROUP": 138,
+          "INSTANCE": 965,
+          "RECTANGLE": 1577,
+          "SECTION": 3,
+          "SLOT": 2,
+          "TEXT": 598,
+          "VECTOR": 869
+        }
+      },
+      "uniqueTexts": 152,
+      "textNodeReferenceCount": 598,
+      "componentCatalogueCount": 9,
+      "assetMetadataCount": 164,
+      "sourceErrorsCount": 0,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    },
+    {
+      "page": {
+        "id": "10352:33966",
+        "name": "🔲 Sheets"
+      },
+      "parts": 1,
+      "byteLength": 22659,
+      "checksum": 3510481649,
+      "sha256": "a26ce69015139eb93e7b4d5462ab512030ca3a3ad85b2ca8a7c0431d7f2f0979",
+      "counts": {
+        "componentSets": 1,
+        "components": 8,
+        "imageFillNodes": 0,
+        "nodes": 66,
+        "textNodes": 25,
+        "types": {
+          "COMPONENT": 8,
+          "COMPONENT_SET": 1,
+          "FRAME": 20,
+          "INSTANCE": 7,
+          "RECTANGLE": 2,
+          "TEXT": 25,
+          "VECTOR": 3
+        }
+      },
+      "uniqueTexts": 14,
+      "textNodeReferenceCount": 25,
+      "componentCatalogueCount": 9,
+      "assetMetadataCount": 0,
+      "sourceErrorsCount": 0,
+      "schema": "figma-doc-content-v1",
+      "status": "verified"
+    }
+  ],
+  "failures": []
+}

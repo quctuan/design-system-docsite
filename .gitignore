@@ -1,0 +1,11 @@
+backups/
+**/node_modules/
+**/.env*
+**/.vercel/
+**/vercel-auth/
+docsite/dist/
+docsite/.dist-build/
+docsite/.dist-previous/
+**/__pycache__/
+.DS_Store
+**/.DS_Store

@@ -1,0 +1,113 @@
+[
+  {
+    "archive_chain": [
+      "Design System.zip"
+    ],
+    "archive_entry": "_Global Colors.zip",
+    "path": "_Global Colors.zip",
+    "bytes": 125062
+  },
+  {
+    "archive_chain": [
+      "Design System.zip",
+      "_Global Colors.zip"
+    ],
+    "archive_entry": "Value.tokens.json",
+    "path": "_Global Colors/Value.tokens.json",
+    "bytes": 124930
+  },
+  {
+    "archive_chain": [
+      "Design System.zip"
+    ],
+    "archive_entry": "_Global Dimension.zip",
+    "path": "_Global Dimension.zip",
+    "bytes": 5875
+  },
+  {
+    "archive_chain": [
+      "Design System.zip",
+      "_Global Dimension.zip"
+    ],
+    "archive_entry": "Mode 1.tokens.json",
+    "path": "_Global Dimension/Mode 1.tokens.json",
+    "bytes": 5741
+  },
+  {
+    "archive_chain": [
+      "Design System.zip"
+    ],
+    "archive_entry": "1. Color modes.zip",
+    "path": "1. Color modes.zip",
+    "bytes": 147843
+  },
+  {
+    "archive_chain": [
+      "Design System.zip",
+      "1. Color modes.zip"
+    ],
+    "archive_entry": "VNPT.tokens.json",
+    "path": "1. Color modes/VNPT.tokens.json",
+    "bytes": 73878
+  },
+  {
+    "archive_chain": [
+      "Design System.zip",
+      "1. Color modes.zip"
+    ],
+    "archive_entry": "VIBE CLUB.tokens.json",
+    "path": "1. Color modes/VIBE CLUB.tokens.json",
+    "bytes": 73717
+  },
+  {
+    "archive_chain": [
+      "Design System.zip"
+    ],
+    "archive_entry": "2. Radius.zip",
+    "path": "2. Radius.zip",
+    "bytes": 6509
+  },
+  {
+    "archive_chain": [
+      "Design System.zip",
+      "2. Radius.zip"
+    ],
+    "archive_entry": "Mode 1.tokens.json",
+    "path": "2. Radius/Mode 1.tokens.json",
+    "bytes": 6375
+  },
+  {
+    "archive_chain": [
+      "Design System.zip"
+    ],
+    "archive_entry": "3. Spacing.zip",
+    "path": "3. Spacing.zip",
+    "bytes": 10812
+  },
+  {
+    "archive_chain": [
+      "Design System.zip",
+      "3. Spacing.zip"
+    ],
+    "archive_entry": "Mode 1.tokens.json",
+    "path": "3. Spacing/Mode 1.tokens.json",
+    "bytes": 10678
+  },
+  {
+    "archive_chain": [
+      "Design System.zip"
+    ],
+    "archive_entry": "4. Typography.zip",
+    "path": "4. Typography.zip",
+    "bytes": 13854
+  },
+  {
+    "archive_chain": [
+      "Design System.zip",
+      "4. Typography.zip"
+    ],
+    "archive_entry": "Mode 1.tokens.json",
+    "path": "4. Typography/Mode 1.tokens.json",
+    "bytes": 13720
+  }
+]

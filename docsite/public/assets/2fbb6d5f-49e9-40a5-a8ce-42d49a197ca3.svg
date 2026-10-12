@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Live area" clip-path="url(#clip0_0_247)">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M-5.96046e-08 4C0 2.89543 0.89543 2 2 2L18 2C19.1046 2 20 2.89543 20 4V16C20 17.1046 19.1046 18 18 18H2C0.895431 18 -5.96046e-07 17.1046 -5.96046e-07 16L-5.96046e-08 4ZM18 4L2 4L2 16H18V4ZM3.16795 5.4453C3.4743 4.98577 4.09517 4.8616 4.5547 5.16795L10 8.79815L15.4453 5.16795C15.9048 4.8616 16.5257 4.98577 16.832 5.4453C17.1384 5.90483 17.0142 6.5257 16.5547 6.83205L10.5547 10.8321C10.2188 11.056 9.7812 11.056 9.4453 10.8321L3.4453 6.83205C2.98577 6.5257 2.8616 5.90483 3.16795 5.4453Z" fill="#34404B"/>
+</g>
+<defs>
+<clipPath id="clip0_0_247">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>

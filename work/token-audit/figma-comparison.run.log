@@ -1,0 +1,232 @@
+{
+  "variableComparison": {
+    "liveVariableCount": 420,
+    "zipUniqueVariableCount": 420,
+    "liveModeValueCount": 506,
+    "comparedValueCount": 506,
+    "missingFromZIP": [],
+    "missingFromLive": [],
+    "valueMismatches": 0,
+    "typeMismatches": 0,
+    "scopeMismatches": 24,
+    "scopeMismatchIdentityCount": 12,
+    "scopeMismatchPatterns": [
+      {
+        "zip": [
+          "STROKE"
+        ],
+        "live": [
+          "STROKE_COLOR"
+        ],
+        "valueCount": 24
+      }
+    ],
+    "hiddenFromPublishingMismatches": 0,
+    "differentVariableIdIdentityCount": 0,
+    "differentVariableIdIdentities": [],
+    "aliasValues": 222,
+    "aliasTargetNameMatches": 222,
+    "aliasTargetCollectionMatches": 222,
+    "aliasTargetPublishedKeyMatches": 222,
+    "liveVariableDescriptionsNonempty": 0,
+    "liveCodeSyntaxNonempty": [
+      {
+        "collection": "_Global Colors",
+        "name": "Light/Gray/2",
+        "id": "VariableID:4696:2861",
+        "codeSyntax": {
+          "iOS": "Gray/100"
+        }
+      },
+      {
+        "collection": "_Global Colors",
+        "name": "Dark/Gray/2",
+        "id": "VariableID:16564:25670",
+        "codeSyntax": {
+          "iOS": "Gray/100"
+        }
+      }
+    ],
+    "tolerance": {
+      "relative": 1e-07,
+      "absolute": 1e-07
+    },
+    "notes": [
+      "Compare source numbers unchanged. Ignore source hex helper for float RGB comparison.",
+      "Different local IDs are reported separately from semantic identity; name/type/value/alias target key are compared explicitly.",
+      "Collections and variable-level hiddenFromPublishing are distinct; preserve both."
+    ]
+  },
+  "styleSummary": {
+    "counts": {
+      "textStyles": 40,
+      "paintStyles": 30,
+      "effectStyles": 16,
+      "gridStyles": 1
+    },
+    "descriptionCount": {
+      "textStyles": 3,
+      "paintStyles": 0,
+      "effectStyles": 0,
+      "gridStyles": 0
+    },
+    "bindingCountByStyleType": {
+      "textStyles": 160,
+      "paintStyles": 28,
+      "effectStyles": 0,
+      "gridStyles": 0
+    },
+    "stylesWithBindings": {
+      "textStyles": 40,
+      "paintStyles": 14,
+      "effectStyles": 0,
+      "gridStyles": 0
+    },
+    "stylesWithoutBindings": {
+      "textStyles": 0,
+      "paintStyles": 16,
+      "effectStyles": 16,
+      "gridStyles": 1
+    },
+    "missingBindingTargetCount": 0,
+    "bindingValueMismatchCount": 0,
+    "bindingValueMismatches": [],
+    "unreferencedTypographyTokensByStyles": [
+      {
+        "name": "font/Family/Android",
+        "id": "VariableID:17437:29",
+        "value": "Inter Tight"
+      }
+    ],
+    "lineHeightBindingsOutsideTypography": [
+      {
+        "style": "Caption/Caption sm/Regular",
+        "binding": {
+          "path": [],
+          "field": "lineHeight",
+          "index": 0,
+          "reference": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:4695:11131"
+          },
+          "target": {
+            "collection": "_Global Dimension",
+            "name": "12x",
+            "id": "VariableID:4695:11131",
+            "key": "673423d039212c559de98e7bcd6ca982a6ac352f"
+          },
+          "value": 12,
+          "actualValue": 12,
+          "valueMatches": true
+        }
+      },
+      {
+        "style": "Caption/Caption sm/Medium",
+        "binding": {
+          "path": [],
+          "field": "lineHeight",
+          "index": 0,
+          "reference": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:4695:11131"
+          },
+          "target": {
+            "collection": "_Global Dimension",
+            "name": "12x",
+            "id": "VariableID:4695:11131",
+            "key": "673423d039212c559de98e7bcd6ca982a6ac352f"
+          },
+          "value": 12,
+          "actualValue": 12,
+          "valueMatches": true
+        }
+      },
+      {
+        "style": "Caption/Caption sm/Bold",
+        "binding": {
+          "path": [],
+          "field": "lineHeight",
+          "index": 0,
+          "reference": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:4695:11131"
+          },
+          "target": {
+            "collection": "_Global Dimension",
+            "name": "12x",
+            "id": "VariableID:4695:11131",
+            "key": "673423d039212c559de98e7bcd6ca982a6ac352f"
+          },
+          "value": 12,
+          "actualValue": 12,
+          "valueMatches": true
+        }
+      }
+    ],
+    "textFamilies": {
+      "SF Pro Display": 40
+    },
+    "textFontStyles": {
+      "Regular": 12,
+      "Medium": 14,
+      "Bold": 14
+    },
+    "lineHeightUnits": {
+      "PIXELS": 40
+    },
+    "letterSpacingUnits": {
+      "PERCENT": 40
+    },
+    "paintTypes": {
+      "GRADIENT_LINEAR": 26,
+      "GRADIENT_RADIAL": 3,
+      "GRADIENT_ANGULAR": 1
+    },
+    "effectTypes": {
+      "DROP_SHADOW": 12,
+      "BACKGROUND_BLUR": 4,
+      "GLASS": 1,
+      "INNER_SHADOW": 9
+    },
+    "gridNameCountConflict": [
+      {
+        "id": "S:e955aaca5d9f8f5894ad8ba0006b81ec5e36c9fe,",
+        "name": "Grid/4 Col",
+        "sourceLayoutGrids": [
+          {
+            "pattern": "COLUMNS",
+            "visible": true,
+            "color": {
+              "r": 1,
+              "g": 0,
+              "b": 0,
+              "a": 0.10000000149011612
+            },
+            "gutterSize": 32,
+            "alignment": "STRETCH",
+            "count": 12,
+            "offset": 32,
+            "boundVariables": {}
+          }
+        ],
+        "issue": "Name says 4 Col, actual count is 12. Keep both source fields and flag for review; do not silently rename."
+      }
+    ],
+    "units": {
+      "fontSize": "Figma text style size",
+      "lineHeight": "explicit PIXELS on all 40 source text styles",
+      "letterSpacing": "explicit PERCENT on all 40 source text styles",
+      "variableNumber": "FLOAT values have no unit field; font sizes/line heights gain context from text style bindings",
+      "radiusSpacing": "FLOAT values and scopes only; do not claim an explicit ZIP unit"
+    },
+    "gaps": [
+      "Android Inter Tight family token exists; all 40 local text styles use SF Pro Display. No Android composite text styles in local styles collection.",
+      "Only 3/40 text styles have descriptions; variables, paint, effect and grid descriptions are empty.",
+      "Only 2 variables provide codeSyntax, both iOS Gray/100; ZIP export omitted these fields. Preserve live code syntax and flag duplicate syntax across Light/Dark.",
+      "Paint/effect/grid styles are separate live source content not included in token ZIP.",
+      "Caption/Caption sm/{Regular,Medium,Bold} use lineHeight 12 PIXELS bound directly to _Global Dimension/12x. There is no corresponding font/Line-height token; preserve the explicit primitive binding.",
+      "Some styles use direct values without token bindings. Preserve raw paints/effects/grid values as source style specifications; do not invent missing token aliases.",
+      "Node-level usage is not represented by styles-variables.json. This report audits local style token bindings, not all consumer nodes."
+    ]
+  }
+}

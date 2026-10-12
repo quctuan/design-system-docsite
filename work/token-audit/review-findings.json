@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "scope": "Live local Figma variables/styles compared with user token ZIP. Consumer node usage and on-canvas guideline text are outside this findings file.",
+  "integrity": {
+    "uniqueTokens": 420,
+    "modeValues": 506,
+    "valueTypeIdDifferences": 0,
+    "missingVariablesOrModes": 0,
+    "verifiedAliases": 222,
+    "verifiedStyleBindings": 188,
+    "styleBindingDifferences": 0,
+    "styleCounts": {
+      "textStyles": 40,
+      "paintStyles": 30,
+      "effectStyles": 16,
+      "gridStyles": 1
+    }
+  },
+  "sourceIssues": [
+    {
+      "id": "grid-name-columns",
+      "reviewPriority": "high",
+      "title": "Tên grid và số cột không khớp",
+      "fact": "Style Grid/4 Col có actual count = 12, gutterSize = 32, offset = 32.",
+      "sourceStyleId": "S:e955aaca5d9f8f5894ad8ba0006b81ec5e36c9fe,",
+      "docsiteHandling": "Giữ tên và thông số gốc; hiển thị điểm cần review. Chưa tự sửa thành 4 hoặc đổi tên thành 12."
+    },
+    {
+      "id": "border-scope-labels",
+      "reviewPriority": "low",
+      "title": "Scope label khác giữa ZIP và API",
+      "fact": "12 border tokens, tương ứng 24 mode values, có ZIP scope STROKE và live scope STROKE_COLOR. Mọi scope discrepancy đều theo cặp label này.",
+      "sourceCollection": "1. Color modes",
+      "docsiteHandling": "Giữ hai raw labels trong provenance; lấy label live khi cần dùng Plugin API. Không ghi thành khác biệt value hoặc sai thiết kế."
+    },
+    {
+      "id": "ios-gray-syntax-shared",
+      "reviewPriority": "medium",
+      "title": "Hai primitive dùng cùng iOS code syntax",
+      "fact": "Light/Gray/2 và Dark/Gray/2 đều có codeSyntax iOS = Gray/100; ZIP không chứa trường này.",
+      "sourceVariables": [
+        {
+          "collection": "_Global Colors",
+          "name": "Light/Gray/2",
+          "id": "VariableID:4696:2861",
+          "codeSyntax": {
+            "iOS": "Gray/100"
+          }
+        },
+        {
+          "collection": "_Global Colors",
+          "name": "Dark/Gray/2",
+          "id": "VariableID:16564:25670",
+          "codeSyntax": {
+            "iOS": "Gray/100"
+          }
+        }
+      ],
+      "docsiteHandling": "Giữ identity Light/Dark riêng và code syntax gốc. Nếu xuất code, cần biểu diễn mode để tránh gộp hai primitive; hiện dữ liệu chưa mô tả quy tắc routing này."
+    }
+  ],
+  "sourceGaps": [
+    {
+      "id": "android-composite-styles",
+      "title": "Chưa có local text styles cho Android",
+      "fact": "Token font/Family/Android = Inter Tight; cả 40 local text styles dùng SF Pro Display và token Android không được local style nào tham chiếu.",
+      "docsiteHandling": "Công bố hai family tokens và 40 styles đúng nguồn; ghi rõ coverage Android. Không tự tuyên bố bộ typography Android đã được định nghĩa."
+    },
+    {
+      "id": "description-coverage",
+      "title": "Metadata mô tả còn ít",
+      "fact": "0/420 variable descriptions, 3/40 text style descriptions, 0/30 paint, 0/16 effect, 0/1 grid descriptions có nội dung. Ba Display sm styles ghi Dùng cho Tên màn hình.",
+      "docsiteHandling": "Dùng mô tả có thật và nội dung guideline trên canvas do inventory khác thu thập; các giải thích bổ sung cần tách khỏi source facts."
+    },
+    {
+      "id": "code-syntax-coverage",
+      "title": "Code syntax chỉ có ở 2 biến",
+      "fact": "2/420 live variables có codeSyntax; đều thuộc iOS. Token ZIP không có tên CSS variable hoặc numeric font-weight mapping.",
+      "docsiteHandling": "Phần code cần một mapping rõ ràng giữa source token identity và identifier nền tảng; giữ mapping có sẵn và ghi provenance của mapping mới."
+    },
+    {
+      "id": "caption-lineheight-direct-primitive",
+      "title": "Caption sm tham chiếu primitive line height",
+      "fact": "Caption/Caption sm/Regular, Medium và Bold có lineHeight = 12 PIXELS, bind trực tiếp _Global Dimension/12x. Không có semantic font/Line-height token 12 trong collection Typography.",
+      "docsiteHandling": "Giữ mapping primitive 12x; không đổi sang font/Line-height/xs (=16) hoặc tự tạo token mới."
+    },
+    {
+      "id": "number-unit-context",
+      "title": "Numeric token không có unit field",
+      "fact": "ZIP number và live FLOAT values không kèm đơn vị. 40 text styles xác nhận lineHeight PIXELS và letterSpacing PERCENT; Radius/Spacing exports chỉ có numbers và scopes.",
+      "docsiteHandling": "Bảo toàn số nguồn. Khi xuất code, ghi quy tắc chuyển đơn vị theo property/platform; không gọi px hoặc rem là unit đã được khai báo trong ZIP."
+    },
+    {
+      "id": "styles-outside-token-zip",
+      "title": "Styles là nguồn bổ sung ngoài ZIP",
+      "fact": "30 paint, 16 effect và 1 grid styles không nằm trong token ZIP. 14 paint styles có 28 gradient-stop bindings; 16 paint styles, toàn bộ effect và grid styles dùng direct values không có variable bindings.",
+      "docsiteHandling": "Công bố đầy đủ raw style specs cạnh token data. Không tự tạo alias cho direct values. Glass/Elements chứa native GLASS effect cùng shadow specs và cần mapping code có ghi rõ mức tương đương."
+    }
+  ],
+  "inclusionNotes": [
+    {
+      "id": "hidden-primitives",
+      "fact": "250 global color variables hiddenFromPublishing = true; cả collections _Global Colors và _Global Dimension hiddenFromPublishing = true.",
+      "docsiteHandling": "Giữ toàn bộ primitive nguồn trong docsite vì 222 aliases phụ thuộc primitive. Collection-level và variable-level flags được lưu riêng."
+    },
+    {
+      "id": "token-name-fidelity",
+      "fact": "Tên token nguồn có case, slash, spaces và transparent/white/bg-white-90. Equal values vẫn là token identity riêng.",
+      "docsiteHandling": "Giữ nguyên source names và tạo identifier code có mapping truy ngược; không collapse equal values."
+    }
+  ],
+  "evidenceFiles": [
+    "work/token-audit/figma-comparison.json",
+    "work/token-audit/styles-summary.json",
+    "work/token-audit/summary.json",
+    "work/figma-audit/styles-variables.json",
+    "work/figma-audit/discovery.json"
+  ]
+}

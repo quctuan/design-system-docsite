@@ -1,0 +1,7 @@
+dist/
+.dist-build/
+.dist-previous/
+.vercel/
+node_modules/
+.vercel
+.env*

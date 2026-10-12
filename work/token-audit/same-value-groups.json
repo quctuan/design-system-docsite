@@ -1,0 +1,1048 @@
+[
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        1,
+        1
+      ],
+      "hex": "#FFFFFF"
+    },
+    "names": [
+      "content/neutral/strong",
+      "border/neutral/white",
+      "bg/neutral/white"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.5843137502670288,
+        0.5843137502670288,
+        0.5843137502670288
+      ],
+      "hex": "#959595"
+    },
+    "names": [
+      "content/neutral/medium",
+      "content/neutral/placeholder"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.21960784494876862,
+        0.21960784494876862,
+        0.21960784494876862
+      ],
+      "hex": "#383838"
+    },
+    "names": [
+      "content/neutral/disabled",
+      "border/neutral/medium",
+      "bg/neutral/disabled"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.4313725531101227,
+        0.07058823853731155,
+        1
+      ],
+      "hex": "#6E12FF"
+    },
+    "names": [
+      "content/brand/default",
+      "content/support/purple/Default",
+      "border/brand/default",
+      "bg/brand/strong",
+      "bg/support/purple/Default"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.824999988079071,
+        0.800000011920929,
+        1
+      ],
+      "hex": "#D2CCFF"
+    },
+    "names": [
+      "content/brand/high-contrast",
+      "content/support/purple/Medium",
+      "bg/support/purple/Medium"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.9450980424880981,
+        0.2549019753932953,
+        0.20000000298023224
+      ],
+      "hex": "#F14133"
+    },
+    "names": [
+      "content/danger/default",
+      "border/danger/default",
+      "bg/danger/strong"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.9333333373069763,
+        0.7098039388656616,
+        0.1921568661928177
+      ],
+      "hex": "#EEB531"
+    },
+    "names": [
+      "content/warning/default",
+      "border/warning/default",
+      "bg/warning/strong"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.3764705955982208,
+        0.8941176533699036,
+        0.6352941393852234
+      ],
+      "hex": "#60E4A2"
+    },
+    "names": [
+      "content/success/default",
+      "bg/success/strong"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.1725490242242813,
+        0.2666666805744171,
+        0.95686274766922
+      ],
+      "hex": "#2C44F4"
+    },
+    "names": [
+      "content/support/blue purple/Default",
+      "bg/support/blue purple/Default"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.9200000166893005,
+        0.947826087474823,
+        1
+      ],
+      "hex": "#EBF2FF"
+    },
+    "names": [
+      "content/support/blue purple/Strong",
+      "bg/support/blue purple/Strong"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.8196078538894653,
+        0.8823529481887817,
+        1
+      ],
+      "hex": "#D1E1FF"
+    },
+    "names": [
+      "content/support/blue purple/Medium",
+      "bg/support/blue purple/Medium"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.5686274766921997,
+        0.6980392336845398,
+        1
+      ],
+      "hex": "#91B2FF"
+    },
+    "names": [
+      "content/support/blue purple/Light",
+      "bg/support/blue purple/Light"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.9516339898109436,
+        0.9215686321258545,
+        1
+      ],
+      "hex": "#F3EBFF"
+    },
+    "names": [
+      "content/support/purple/Strong",
+      "bg/support/purple/Strong"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.6980392336845398,
+        0.6549019813537598,
+        1
+      ],
+      "hex": "#B2A7FF"
+    },
+    "names": [
+      "content/support/purple/Light",
+      "bg/support/purple/Light"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.9686274528503418,
+        0.32549020648002625,
+        0.9215686321258545
+      ],
+      "hex": "#F753EB"
+    },
+    "names": [
+      "content/support/pink neon/Default",
+      "border/brand/light",
+      "bg/support/pink neon/Default"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        0.9333333373069763,
+        0.995555579662323
+      ],
+      "hex": "#FFEEFE"
+    },
+    "names": [
+      "content/support/pink neon/Strong",
+      "bg/support/pink neon/Strong"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        0.8313725590705872,
+        0.9887581467628479
+      ],
+      "hex": "#FFD4FC"
+    },
+    "names": [
+      "content/support/pink neon/Medium",
+      "bg/support/pink neon/Medium"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        0.6000000238418579,
+        0.9733333587646484
+      ],
+      "hex": "#FF99F8"
+    },
+    "names": [
+      "content/support/pink neon/Light",
+      "bg/support/pink neon/Light"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.12941177189350128,
+        0.12941177189350128,
+        0.12941177189350128
+      ],
+      "hex": "#212121"
+    },
+    "names": [
+      "border/neutral/strong",
+      "bg/neutral/strong",
+      "bg/neutral/medium"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.4000000059604645,
+        0.062745101749897,
+        0.03921568766236305
+      ],
+      "hex": "#66100A"
+    },
+    "names": [
+      "border/danger/light",
+      "bg/danger/medium"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.32549020648002625,
+        0.23137255012989044,
+        0
+      ],
+      "hex": "#533B00"
+    },
+    "names": [
+      "border/warning/light",
+      "bg/warning/medium"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VIBE CLUB",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.12000000476837158,
+        0.35999998450279236,
+        0.24000000953674316
+      ],
+      "hex": "#1F5C3D"
+    },
+    "names": [
+      "border/success/light",
+      "bg/success/medium"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.20392157137393951,
+        0.250980406999588,
+        0.29411765933036804
+      ],
+      "hex": "#34404B"
+    },
+    "names": [
+      "content/neutral/strong",
+      "bg/neutral/contrast"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.6039215922355652,
+        0.6274510025978088,
+        0.6470588445663452
+      ],
+      "hex": "#9AA0A5"
+    },
+    "names": [
+      "content/neutral/light",
+      "content/neutral/disabled",
+      "border/neutral/strong"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        1,
+        1
+      ],
+      "hex": "#FFFFFF"
+    },
+    "names": [
+      "content/neutral/white",
+      "border/neutral/white",
+      "bg/neutral/white"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.1882352977991104,
+        0.4745098054409027,
+        1
+      ],
+      "hex": "#3079FF"
+    },
+    "names": [
+      "content/brand/default",
+      "border/brand/default",
+      "bg/brand/strong"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        0.31339871883392334,
+        0.250980406999588
+      ],
+      "hex": "#FF5040"
+    },
+    "names": [
+      "content/danger/default",
+      "border/danger/default",
+      "bg/danger/strong"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        0.7450980544090271,
+        0.250980406999588
+      ],
+      "hex": "#FFBE40"
+    },
+    "names": [
+      "content/warning/default",
+      "border/warning/default",
+      "bg/warning/strong"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.20000000298023224,
+        0.800000011920929,
+        0.501960813999176
+      ],
+      "hex": "#33CC80"
+    },
+    "names": [
+      "content/success/default",
+      "border/success/default",
+      "bg/success/strong"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.4588235318660736,
+        0.6039215922355652,
+        1
+      ],
+      "hex": "#759AFF"
+    },
+    "names": [
+      "content/support/blue purple/Default",
+      "bg/support/blue purple/Default"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.08627451211214066,
+        0.11372549086809158,
+        0.3137255012989044
+      ],
+      "hex": "#161D50"
+    },
+    "names": [
+      "content/support/blue purple/Strong",
+      "bg/support/blue purple/Strong"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.14901961386203766,
+        0.20392157137393951,
+        0.5372549295425415
+      ],
+      "hex": "#263489"
+    },
+    "names": [
+      "content/support/blue purple/Medium",
+      "bg/support/blue purple/Medium"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.16470588743686676,
+        0.23529411852359772,
+        0.8470588326454163
+      ],
+      "hex": "#2A3CD8"
+    },
+    "names": [
+      "content/support/blue purple/Light",
+      "bg/support/blue purple/Light"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.5882353186607361,
+        0.45098039507865906,
+        1
+      ],
+      "hex": "#9673FF"
+    },
+    "names": [
+      "content/support/purple/Default",
+      "bg/support/purple/Default"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.16470588743686676,
+        0,
+        0.46666666865348816
+      ],
+      "hex": "#2A0077"
+    },
+    "names": [
+      "content/support/purple/Strong",
+      "bg/support/purple/Strong"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.27450981736183167,
+        0.0117647061124444,
+        0.686274528503418
+      ],
+      "hex": "#4603AF"
+    },
+    "names": [
+      "content/support/purple/Medium",
+      "bg/support/purple/Medium"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.3294117748737335,
+        0.003921568859368563,
+        0.8392156958580017
+      ],
+      "hex": "#5401D6"
+    },
+    "names": [
+      "content/support/purple/Light",
+      "bg/support/purple/Light"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.9960784316062927,
+        0.45490196347236633,
+        0.95686274766922
+      ],
+      "hex": "#FE74F4"
+    },
+    "names": [
+      "content/support/pink neon/Default",
+      "bg/support/pink neon/Default"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.3176470696926117,
+        0.003921568859368563,
+        0.2705882489681244
+      ],
+      "hex": "#510145"
+    },
+    "names": [
+      "content/support/pink neon/Strong",
+      "bg/support/pink neon/Strong"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.4745098054409027,
+        0.08627451211214066,
+        0.4156862795352936
+      ],
+      "hex": "#79166A"
+    },
+    "names": [
+      "content/support/pink neon/Medium",
+      "bg/support/pink neon/Medium"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.5803921818733215,
+        0.0784313753247261,
+        0.5176470875740051
+      ],
+      "hex": "#941484"
+    },
+    "names": [
+      "content/support/pink neon/Light",
+      "bg/support/pink neon/Light"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.8784313797950745,
+        0.8784313797950745,
+        0.8784313797950745
+      ],
+      "hex": "#E0E0E0"
+    },
+    "names": [
+      "border/neutral/medium",
+      "bg/neutral/strong",
+      "bg/neutral/disabled"
+    ]
+  },
+  {
+    "collection": "1. Color modes",
+    "mode": "VNPT",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.9300000071525574,
+        0.9300000071525574,
+        0.9300000071525574
+      ],
+      "hex": "#EDEDED"
+    },
+    "names": [
+      "border/neutral/light",
+      "bg/neutral/medium"
+    ]
+  },
+  {
+    "collection": "4. Typography",
+    "mode": "Mode 1",
+    "type": "number",
+    "value": 16,
+    "names": [
+      "font/Size/md",
+      "font/Line-height/xs"
+    ]
+  },
+  {
+    "collection": "4. Typography",
+    "mode": "Mode 1",
+    "type": "number",
+    "value": 20,
+    "names": [
+      "font/Size/xl",
+      "font/Line-height/sm"
+    ]
+  },
+  {
+    "collection": "4. Typography",
+    "mode": "Mode 1",
+    "type": "number",
+    "value": 24,
+    "names": [
+      "font/Size/2xl",
+      "font/Line-height/md"
+    ]
+  },
+  {
+    "collection": "4. Typography",
+    "mode": "Mode 1",
+    "type": "number",
+    "value": 32,
+    "names": [
+      "font/Size/4xl",
+      "font/Line-height/2xl"
+    ]
+  },
+  {
+    "collection": "4. Typography",
+    "mode": "Mode 1",
+    "type": "number",
+    "value": 36,
+    "names": [
+      "font/Size/5xl",
+      "font/Line-height/3xl"
+    ]
+  },
+  {
+    "collection": "4. Typography",
+    "mode": "Mode 1",
+    "type": "number",
+    "value": 40,
+    "names": [
+      "font/Size/6xl",
+      "font/Line-height/4xl"
+    ]
+  },
+  {
+    "collection": "_Global Colors",
+    "mode": "Value",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.27843138575553894,
+        0.5333333611488342,
+        1
+      ],
+      "hex": "#4788FF"
+    },
+    "names": [
+      "Light/Brand/5",
+      "Dark/Brand/7"
+    ]
+  },
+  {
+    "collection": "_Global Colors",
+    "mode": "Value",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.3764705955982208,
+        0.8941176533699036,
+        0.6352941393852234
+      ],
+      "hex": "#60E4A2"
+    },
+    "names": [
+      "Light/Green/5",
+      "Dark/Green/8"
+    ]
+  },
+  {
+    "collection": "_Global Colors",
+    "mode": "Value",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.7411764860153198,
+        0.4470588266849518,
+        0.32156863808631897
+      ],
+      "hex": "#BD7252"
+    },
+    "names": [
+      "Light/Warm/6",
+      "Dark/Warm/7"
+    ]
+  },
+  {
+    "collection": "_Global Colors",
+    "mode": "Value",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.1725490242242813,
+        0.2666666805744171,
+        0.95686274766922
+      ],
+      "hex": "#2C44F4"
+    },
+    "names": [
+      "Light/Blue Purple/7",
+      "Dark/Blue Purple/7"
+    ]
+  },
+  {
+    "collection": "_Global Colors",
+    "mode": "Value",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.9137254953384399,
+        0.8941176533699036,
+        1
+      ],
+      "hex": "#E9E4FF"
+    },
+    "names": [
+      "Light/Purple/2",
+      "Light/Purple/3"
+    ]
+  },
+  {
+    "collection": "_Global Colors",
+    "mode": "Value",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.4313725531101227,
+        0.07058823853731155,
+        1
+      ],
+      "hex": "#6E12FF"
+    },
+    "names": [
+      "Light/Purple/7",
+      "Dark/Purple/7"
+    ]
+  },
+  {
+    "collection": "_Global Colors",
+    "mode": "Value",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.9686274528503418,
+        0.32549020648002625,
+        0.9215686321258545
+      ],
+      "hex": "#F753EB"
+    },
+    "names": [
+      "Light/Pink neon/6",
+      "Dark/Pink neon/7"
+    ]
+  },
+  {
+    "collection": "_Global Colors",
+    "mode": "Value",
+    "type": "color",
+    "value": {
+      "alpha": 1,
+      "colorSpace": "srgb",
+      "components": [
+        0.12941177189350128,
+        0.12941177189350128,
+        0.12941177189350128
+      ],
+      "hex": "#212121"
+    },
+    "names": [
+      "Dark/Gray/2",
+      "Dark/Gray/3"
+    ]
+  }
+]

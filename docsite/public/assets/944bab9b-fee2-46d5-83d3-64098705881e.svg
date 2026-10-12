@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Live area" clip-path="url(#clip0_0_81)">
+<path id="Vector" d="M0 10C0 4.47715 4.47715 0 10 0C15.5228 0 20 4.47715 20 10V13C20 14.9002 18.6751 16.4909 16.8986 16.8987C16.4908 18.6751 14.9002 20 13 20H9C8.44771 20 8 19.5523 8 19C8 18.4477 8.44771 18 9 18H13C13.8316 18 14.5447 17.4924 14.8463 16.7702C13.7621 16.3181 13 15.248 13 14V10C13 8.34315 14.3431 7 16 7H17C17.1463 7 17.2901 7.01047 17.4308 7.03071C16.2518 4.08262 13.3691 2 10 2C6.63091 2 3.74825 4.08262 2.56916 7.03071C2.70986 7.01047 2.85371 7 3 7H4C5.65685 7 7 8.34315 7 10V14C7 15.6569 5.65685 17 4 17C1.79086 17 0 15.2091 0 13V10Z" fill="url(#paint0_linear_0_81)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_81" x1="5.24096" y1="4.84018" x2="7.62736" y2="21.0206" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3079FF"/>
+<stop offset="1" stop-color="#00A3F4"/>
+</linearGradient>
+<clipPath id="clip0_0_81">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>

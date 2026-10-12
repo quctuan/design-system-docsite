@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Preserve Do/Don’t polarity from source visual tables; do not interpret all extracted strings as positive rules.",
+  "rules": [
+    {
+      "polarity": "do",
+      "exactSourceText": "Cần nền phức tạp: Liquid Glass CHỈ hoạt động hiệu quả khi nằm trên một lớp nền nhiều màu sắc, gradient, hoặc hình ảnh.",
+      "textNodeIds": [
+        "11463:620"
+      ],
+      "sectionId": "11461:94",
+      "evidence": "visual-table-column-label",
+      "sourcePageId": "11436:5"
+    },
+    {
+      "polarity": "dont",
+      "exactSourceText": "Đặt trên một nền trắng trơn hoặc màu solid phẳng: Hiệu ứng này sẽ vô hình và trông như màu xám xỉn.",
+      "textNodeIds": [
+        "11463:627"
+      ],
+      "sectionId": "11461:94",
+      "evidence": "visual-table-column-label",
+      "sourcePageId": "11436:5"
+    },
+    {
+      "polarity": "do",
+      "exactSourceText": "Border viền sáng: BẮT BUỘC phải có viền (Stroke) 1px, màu Solid White hoặc Gradient từ fill đến mờ dần, để định hình viền kính.",
+      "textNodeIds": [
+        "11463:763"
+      ],
+      "sectionId": "11461:94",
+      "evidence": "visual-table-column-label",
+      "sourcePageId": "11436:5"
+    },
+    {
+      "polarity": "dont",
+      "exactSourceText": "Chỉ dùng glass trên card mà không có Border: UI sẽ trông như 1 vệt nhoè trên screen. Bị chìm vào bg",
+      "textNodeIds": [
+        "11463:781"
+      ],
+      "sectionId": "11461:94",
+      "evidence": "visual-table-column-label",
+      "sourcePageId": "11436:5"
+    },
+    {
+      "polarity": "do",
+      "exactSourceText": "Sắp xếp layer: Thẻ liquid glass chỉ đặt riêng lẻ trên background",
+      "textNodeIds": [
+        "11463:800"
+      ],
+      "sectionId": "11461:94",
+      "evidence": "visual-table-column-label",
+      "sourcePageId": "11436:5"
+    },
+    {
+      "polarity": "dont",
+      "exactSourceText": "Xếp chồng nhiều layer lên nhau: Không đặt một lớp Liquid Glass lên trên một lớp Liquid Glass khác",
+      "textNodeIds": [
+        "11463:818"
+      ],
+      "sectionId": "11461:94",
+      "evidence": "visual-table-column-label",
+      "sourcePageId": "11436:5"
+    },
+    {
+      "polarity": "do",
+      "exactSourceText": "Tương phản nội dung: Text và Icon đặt trên Liquid Glass phải có độ tương phản cực tốt (thường là màu Đen/Xám đậm hẳn hoặc Trắng tinh)",
+      "textNodeIds": [
+        "11465:132"
+      ],
+      "sectionId": "11461:94",
+      "evidence": "visual-table-column-label",
+      "sourcePageId": "11436:5"
+    },
+    {
+      "polarity": "dont",
+      "exactSourceText": "Tương phản nội dung: Sử dụng text và icon màu sắc trên nền liqid glass",
+      "textNodeIds": [
+        "11465:150"
+      ],
+      "sectionId": "11461:94",
+      "evidence": "visual-table-column-label",
+      "sourcePageId": "11436:5"
+    },
+    {
+      "polarity": "do",
+      "exactSourceText": "Nguồn sáng nhất quán: Đảm bảo hướng của Inner Shadow (âm/dương của trục X và Y) phải khớp với nguồn sáng tổng thể của toàn bộ Design System",
+      "textNodeIds": [
+        "11470:190"
+      ],
+      "sectionId": "11463:336",
+      "evidence": "visual-table-column-label",
+      "sourcePageId": "11436:5"
+    },
+    {
+      "polarity": "dont",
+      "exactSourceText": "Nguồn sáng hướng không cố định: Tạo sự không đồng bộ cho DS",
+      "textNodeIds": [
+        "11470:208"
+      ],
+      "sectionId": "11463:336",
+      "evidence": "visual-table-column-label",
+      "sourcePageId": "11436:5"
+    },
+    {
+      "polarity": "do",
+      "exactSourceText": "Chỉ áp dụng lên các object theo quy định: Shape, Chart, Illustration, Toggle track, segment track",
+      "textNodeIds": [
+        "11470:226"
+      ],
+      "sectionId": "11463:336",
+      "evidence": "visual-table-column-label",
+      "sourcePageId": "11436:5"
+    },
+    {
+      "polarity": "dont",
+      "exactSourceText": "Áp dụng lên Typography và Icon: Sẽ làm giảm contrast, gây nhòe khó đọc",
+      "textNodeIds": [
+        "11470:244"
+      ],
+      "sectionId": "11463:336",
+      "evidence": "visual-table-column-label",
+      "sourcePageId": "11436:5"
+    }
+  ],
+  "sourceIllustrationStatus": "Do/Don’t example illustrations in frames 2.1 and 2.2 are marked WIP in the source."
+}

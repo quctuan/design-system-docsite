@@ -1,0 +1,74 @@
+{
+  "sidebar": {
+    "removedGroups": [
+      "Integrations",
+      "Guidelines & History",
+      "Supplemental"
+    ],
+    "removedRightRail": [
+      "Build with the system",
+      "Source snapshot"
+    ],
+    "accordionChecks": [
+      [
+        "Foundations & Tokens"
+      ],
+      [
+        "Components"
+      ],
+      [
+        "Assets"
+      ]
+    ]
+  },
+  "gallery": {
+    "logo": 8,
+    "store": 33,
+    "icons": 1244,
+    "illustrations": 94,
+    "total": 1379,
+    "iconSearch": {
+      "query": "Badge-check",
+      "matches": 2
+    }
+  },
+  "downloads": [
+    {
+      "file": "iOS-14354-31077@1x.png",
+      "format": "PNG",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "file": "iOS-14354-31077@4x.png",
+      "format": "PNG",
+      "width": 2048,
+      "height": 2048,
+      "alpha": true
+    },
+    {
+      "file": "Screenshot-Man-1-6252-58@1x.jpg",
+      "format": "JPEG",
+      "width": 1080,
+      "height": 1920
+    }
+  ],
+  "preview": {
+    "page": "Introduction",
+    "blueBackgroundRemoved": true,
+    "nativeExports": 35
+  },
+  "mobile": {
+    "viewport": 390,
+    "pageWidth": 375,
+    "menuWorks": true,
+    "singleExpandedSection": true
+  },
+  "console": [],
+  "proof": [
+    "docsite-assets-preview.png",
+    "docsite-feedback-preview.png",
+    "docsite-feedback-mobile.png"
+  ]
+}

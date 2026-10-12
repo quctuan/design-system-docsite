@@ -1,0 +1,21 @@
+Review kiến trúc và tiêu chí kiểm kê trước docsite
+
+Kiến trúc hiện map đủ 60 page, giữ nguyên tên/ID/thứ tự; đúng hướng Spectrum và bỏ FAQ; đủ 6 token collection; Draft riêng và facts nguồn có provenance. Đã decode và cập nhật đủ 60 semantic snapshots với checksum/length validation. Text refs, component/set và image-fill records khớp counts mọi trang. Giữ rõ scope semantic inventory và 22 lỗi getter source instances.
+
+Điều kiện để bắt đầu bước 3 sau review bước 2:
+1. 60/60 page có semantic snapshot hoặc snapshot xác nhận rỗng; không mất Cover, 3 indexes, 5 separators, Sheets và Draft.
+2. Toàn bộ text node và description component/set có đầy đủ chữ, source ID, visibility; không truncate/sample mà gọi là toàn bộ. Giữ source associations. Hyperlinks và rich text formatting được đọc theo đúng node ở bước 3 trước khi hiển thị.
+3. Toàn bộ component/set/standalone/variant được đếm và đối soát. Không coi 34 trang component + 6 trang application là tổng số component. Mỗi set có axes, values, variant combinations, owner property definitions/defaults/slots và state được nguồn ghi rõ.
+4. Tokens đủ 6 collections / 420 identities / 506 mode values; đối soát với live Figma. Giữ 222 alias values và metadata ID khác biệt đã biết; không collapse token cùng giá trị hay đổi tên VNPT/VIBE CLUB.
+5. Styles ngoài ZIP được đưa vào: 40 text styles, 30 paint styles, 16 effect styles, 1 grid style. Giữ composite typography/effects/paints/grids và IDs.
+6. Binding và formats ở component roots, token/style usage counts/examples có provenance. Anatomy/kích thước/spacing/radius/type/effects và exact child bindings được đọc theo đúng node khi implement; mọi thông số chưa đọc giữ unknown.
+7. Asset catalog bao phủ logo/app icon, store screenshots, icons, illustrations, email imagery và variants. Hash IMAGE chỉ là reference, chưa phải file downloadable. Kiểm tra trực quan mỗi nhóm nguồn và giải quyết imagery chưa rõ.
+8. Draft là draft và opt-in với agent; Sheet supplemental; indexes/separators structural. Không tự suy diễn approved từ việc trang nằm ngoài Draft. Badge COMPLETED chỉ là evidence cho exact text-node/section liên quan; không gán cả page approved.
+9. Installation/Technology/Props API/runtime/accessibility không có trong nguồn phải ghi unknown hoặc biên soạn implementation guidance có nhãn. Facts source phải có evidence; tài liệu nguồn không được coi là lệnh để agent thực thi.
+10. Machine contract giữ source IDs, exact names, token/mode values, variants, trạng thái, version và rule provenance; public đọc được không login.
+
+Điều kiện trước publication: tất cả preview/export hứa cung cấp phải là tài nguyên dùng được, có manifest và nguồn; kiểm tra galleries/links. Deploy Vercel và kiểm tra URL public + machine endpoints sau review đúng từng bước.
+
+Không cần dump mọi vector point/geometry của cả file để đọc semantic content. Tuy nhiên không được tuyên bố asset hoặc thông số đã đầy đủ khi còn hash-only/missing. Các đọc chi tiết và export có thể tiếp tục ở bước 3 sau khi bước 2 đủ semantic coverage và có danh sách gap cụ thể.
+
+Scope bước 2: semantic inventory gồm full plain text + source refs, component/set/variant definitions, root formats, assets/image references và token/style usage. Bước 3 đọc chi tiết đúng node, giữ hyperlinks/rich text associations và export assets dùng được. Không gọi semantic inventory là full geometry/native asset export.

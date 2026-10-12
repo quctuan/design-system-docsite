@@ -1,0 +1,17 @@
+Cấu trúc nội dung đề xuất — Bước 2
+
+Đã map và cập nhật semantic inventory đủ 60/60 page của file LEPP6mucy8IwApPlDQ7VAH. Mỗi record giữ nguyên tên gốc, emoji/dấu cách, page ID, thứ tự và Figma URL; display name và docsite route là trường riêng. Không mất Cover, indexes, separators, Sheets hoặc Draft.
+
+Điều hướng: Getting Started (Cover/Table of Contents); Foundations / Tokens (Styles & Foundations; Spacing, Radius & Grids; 6 collection); Assets (Logo & App icon; Screenshots on Store; Icons; Illustrations); Components (index + 34 trang); Application (index + 6 trang + Email Template); Guidelines / Changelog (Liquid Glass/Change Log); Supplemental (Sheets/Draft); Source Structure (5 separators).
+
+Inventory toàn file: 59,109 scene nodes; 6,297 text nodes; 2,126 COMPONENT; 455 COMPONENT_SET; 1,278 node có IMAGE fill. Text refs, components, sets và image-fill records khớp source counts cho mọi trang; không có page count mismatch. 34+6 là số trang component, không phải số component trong library.
+
+Draft giữ trạng thái draft: 10.862 nodes, 625 text nodes, 205 components, 12 sets, 128 image-fill nodes. Ngoài Draft: 48.247 nodes, 5.672 text nodes, 1.921 components, 443 sets, 1.150 image-fill nodes. Các badge COMPLETED/IN PROGRESS chỉ được ghi là source-status evidence với text node/section IDs; không tự gắn cả page approved.
+
+Tokens: 420 identities / 506 mode values trong 7 JSON và 6 collections: _Global Colors 250; _Global Dimension 29; 1. Color modes 86 × VNPT/VIBE CLUB; 2. Radius 12; 3. Spacing 17; 4. Typography 26. Giữ primitive hidden, alias metadata, exact path/case/space và token khác tên nhưng cùng giá trị. 222 aliases resolve qua collection+name và khớp values; ID targets khác local export được bảo toàn. Styles Figma ngoài ZIP: 40 text, 30 paint, 16 effect, 1 grid.
+
+Template theo Spectrum, FAQ=false: tên/mô tả → preview/variants → Installation → Usage → Overview → Technology → Props/API → Use cases → Accessibility → Customization → Related components. Thêm anatomy/thông số, token bindings, source links/IDs, trạng thái và phiên bản. Facts normative phải có nguồn. API code/công nghệ/cài đặt/behavior/accessibility được biên soạn từ implementation thì có nhãn riêng.
+
+Scope đã đọc là semantic inventory: toàn bộ plain text + source refs, component/set/variants/property definitions, root formats, image-paint references và token/style usage counts/examples. Chưa là full leaf geometry/rich text export/native binary exports. Bước 3 đọc đúng node cần implement, giữ hyperlinks/source association và export assets dùng được. Figma có 22 lỗi getter componentProperties ở instances thuộc Screenshots on Store (8), Menu Bar (13), Section Header (1); text và component-owner definitions vẫn được kiểm kê; giữ source error IDs để xử lý có phạm vi.
+
+Agent contract đề xuất: llms.txt / llms-full.txt / registry.json + JSON từng item, token JSON gốc/normalized, exact IDs/names/modes/bindings/variants/status/provenance/version. Draft opt-in rõ ràng; public content và machine exports đọc được không login. Step 2 chưa build hay deploy; bước 4 dùng Vercel sau review các bước.

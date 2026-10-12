@@ -1,0 +1,20 @@
+{
+  "name": "vnpt-design-system-docs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=20.11"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12",
+    "parse5": "7.3.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  }
+}

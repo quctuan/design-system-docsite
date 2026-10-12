@@ -1,0 +1,200 @@
+[
+  {
+    "key": "compact-11847-2471",
+    "page": {
+      "id": "11847:2471",
+      "name": "🚧 Draft"
+    },
+    "index": 1,
+    "reason": "snapshot_header_mismatch",
+    "expected": {
+      "chunks": 36,
+      "byteLength": 1671585,
+      "checksum": 1537771444
+    },
+    "actual": {
+      "chunks": 36,
+      "byteLength": 1670801,
+      "checksum": 3079903867
+    },
+    "summary": {
+      "nodes": 10862,
+      "types": {
+        "SECTION": 3,
+        "FRAME": 1910,
+        "TEXT": 625,
+        "INSTANCE": 494,
+        "GROUP": 1119,
+        "VECTOR": 4441,
+        "RECTANGLE": 996,
+        "ELLIPSE": 366,
+        "BOOLEAN_OPERATION": 90,
+        "COMPONENT_SET": 12,
+        "COMPONENT": 205,
+        "POLYGON": 1,
+        "LINE": 600
+      },
+      "components": 205,
+      "componentSets": 12,
+      "textNodes": 625,
+      "uniqueTextValues": 268,
+      "imageFillNodes": 128
+    }
+  },
+  {
+    "key": "compact-6-4447",
+    "page": {
+      "id": "6:4447",
+      "name": "      ↳ Section Header "
+    },
+    "index": 1,
+    "reason": "snapshot_header_mismatch",
+    "expected": {
+      "chunks": 8,
+      "byteLength": 357039,
+      "checksum": 3029403820
+    },
+    "actual": {
+      "chunks": 8,
+      "byteLength": 356000,
+      "checksum": 2509164959,
+      "index": 1
+    },
+    "summary": {
+      "nodes": 766,
+      "types": {
+        "INSTANCE": 132,
+        "FRAME": 178,
+        "ELLIPSE": 21,
+        "RECTANGLE": 163,
+        "GROUP": 19,
+        "VECTOR": 133,
+        "BOOLEAN_OPERATION": 6,
+        "TEXT": 105,
+        "COMPONENT_SET": 1,
+        "COMPONENT": 8
+      },
+      "components": 8,
+      "componentSets": 1,
+      "textNodes": 105,
+      "uniqueTextValues": 83,
+      "imageFillNodes": 14
+    }
+  },
+  {
+    "key": "compact-10371-1556",
+    "page": {
+      "id": "10371:1556",
+      "name": "🔰 Spacing, Radius & Grids "
+    },
+    "index": 1,
+    "reason": "snapshot_header_mismatch",
+    "expected": {
+      "chunks": 6,
+      "byteLength": 264081,
+      "checksum": 304963984
+    },
+    "actual": {
+      "chunks": 6,
+      "byteLength": 264708,
+      "checksum": 2262900270,
+      "index": 1
+    },
+    "summary": {
+      "nodes": 1267,
+      "types": {
+        "TEXT": 268,
+        "FRAME": 467,
+        "INSTANCE": 184,
+        "VECTOR": 325,
+        "RECTANGLE": 22,
+        "COMPONENT": 1
+      },
+      "components": 1,
+      "componentSets": 0,
+      "textNodes": 268,
+      "uniqueTextValues": 146,
+      "imageFillNodes": 0
+    }
+  },
+  {
+    "key": "compact-6-4454",
+    "page": {
+      "id": "6:4454",
+      "name": "      ↳ Badge "
+    },
+    "index": 1,
+    "reason": "snapshot_header_mismatch",
+    "expected": {
+      "chunks": 9,
+      "byteLength": 614444,
+      "checksum": 1581879982
+    },
+    "actual": {
+      "chunks": 9,
+      "byteLength": 614444,
+      "checksum": 853119662,
+      "index": 1
+    },
+    "summary": {
+      "nodes": 857,
+      "types": {
+        "INSTANCE": 235,
+        "FRAME": 6,
+        "TEXT": 218,
+        "VECTOR": 166,
+        "COMPONENT_SET": 1,
+        "COMPONENT": 198,
+        "ELLIPSE": 33
+      },
+      "components": 198,
+      "componentSets": 1,
+      "textNodes": 218,
+      "uniqueTextValues": 15,
+      "imageFillNodes": 0
+    }
+  },
+  {
+    "key": "compact-15520-717",
+    "page": {
+      "id": "15520:717",
+      "name": "      ↳ Mini App"
+    },
+    "index": 1,
+    "reason": "snapshot_header_mismatch",
+    "expected": {
+      "chunks": 21,
+      "byteLength": 1049085,
+      "checksum": 617767900
+    },
+    "actual": {
+      "chunks": 21,
+      "byteLength": 1044602,
+      "checksum": 2862429926,
+      "index": 1
+    },
+    "summary": {
+      "nodes": 5612,
+      "types": {
+        "INSTANCE": 965,
+        "FRAME": 1321,
+        "TEXT": 598,
+        "VECTOR": 869,
+        "COMPONENT_SET": 1,
+        "COMPONENT": 8,
+        "GROUP": 138,
+        "BOOLEAN_OPERATION": 66,
+        "RECTANGLE": 1577,
+        "ELLIPSE": 56,
+        "SLOT": 2,
+        "SECTION": 3,
+        "CONNECTOR": 8
+      },
+      "components": 8,
+      "componentSets": 1,
+      "textNodes": 598,
+      "uniqueTextValues": 152,
+      "imageFillNodes": 164
+    }
+  }
+]

@@ -1,0 +1,874 @@
+{
+  "schemaVersion": 1,
+  "scope": {
+    "sourcePattern": "work/figma-audit/semantic-PAGE-ID.json",
+    "tokenReviewReference": "work/token-audit/review-findings.json",
+    "method": "Exact tuple and schema checks on decoded COMPONENT_SET and COMPONENT records; exact visible text marker matching."
+  },
+  "sourceFacts": {
+    "inventory": {
+      "semanticSnapshotCount": 60,
+      "pageCount": 60,
+      "componentSetCount": 455,
+      "componentCount": 2126,
+      "componentSetsWithChildren": 455
+    },
+    "variantSchema": {
+      "duplicateVariantTuples": [],
+      "setsWithoutVariantSchema": [],
+      "setsWithoutChildren": [],
+      "childrenWithMissingOrUnexpectedVariantProperties": [],
+      "schemaOptionMismatches": [],
+      "setsWithUnrepresentedCartesianCombinations": [
+        {
+          "pageId": "6:4433",
+          "pageName": "      ↳ Checkbox & Radio Option ",
+          "setId": "4:3397",
+          "setName": "Check box",
+          "expectedCombinationCount": 16,
+          "definedComponentCount": 10,
+          "unrepresentedCombinationCount": 6,
+          "sampleUnrepresentedTuples": [
+            {
+              "Indeterminate": "On",
+              "Size": "20",
+              "Tyoe": "Active_Disabled"
+            },
+            {
+              "Indeterminate": "On",
+              "Size": "20",
+              "Tyoe": "Disable"
+            },
+            {
+              "Indeterminate": "On",
+              "Size": "20",
+              "Tyoe": "_Checkbox base"
+            },
+            {
+              "Indeterminate": "On",
+              "Size": "24",
+              "Tyoe": "Active_Disabled"
+            },
+            {
+              "Indeterminate": "On",
+              "Size": "24",
+              "Tyoe": "Disable"
+            },
+            {
+              "Indeterminate": "On",
+              "Size": "24",
+              "Tyoe": "_Checkbox base"
+            }
+          ]
+        },
+        {
+          "pageId": "6:4446",
+          "pageName": "      ↳ Inputs ",
+          "setId": "1:1335",
+          "setName": "Inputs/Text Input",
+          "expectedCombinationCount": 40,
+          "definedComponentCount": 10,
+          "unrepresentedCombinationCount": 30,
+          "sampleUnrepresentedTuples": [
+            {
+              "Destructive": "False",
+              "Positive": "False",
+              "State": "Active",
+              "Type": "Password"
+            },
+            {
+              "Destructive": "False",
+              "Positive": "False",
+              "State": "Default",
+              "Type": "Password"
+            },
+            {
+              "Destructive": "False",
+              "Positive": "False",
+              "State": "Disable",
+              "Type": "Password"
+            },
+            {
+              "Destructive": "False",
+              "Positive": "True",
+              "State": "Active",
+              "Type": "Password"
+            },
+            {
+              "Destructive": "False",
+              "Positive": "True",
+              "State": "Active",
+              "Type": "Text"
+            },
+            {
+              "Destructive": "False",
+              "Positive": "True",
+              "State": "Default",
+              "Type": "Password"
+            }
+          ]
+        },
+        {
+          "pageId": "6:4446",
+          "pageName": "      ↳ Inputs ",
+          "setId": "5201:8821",
+          "setName": "Inputs/Big Input",
+          "expectedCombinationCount": 32,
+          "definedComponentCount": 10,
+          "unrepresentedCombinationCount": 22,
+          "sampleUnrepresentedTuples": [
+            {
+              "Destructive": "False",
+              "Positive": "True",
+              "State": "Active",
+              "Type": "Amount"
+            },
+            {
+              "Destructive": "False",
+              "Positive": "True",
+              "State": "Active",
+              "Type": "Value"
+            },
+            {
+              "Destructive": "False",
+              "Positive": "True",
+              "State": "Default",
+              "Type": "Value"
+            },
+            {
+              "Destructive": "False",
+              "Positive": "True",
+              "State": "Filled",
+              "Type": "Amount"
+            },
+            {
+              "Destructive": "False",
+              "Positive": "True",
+              "State": "Filled",
+              "Type": "Value"
+            },
+            {
+              "Destructive": "False",
+              "Positive": "True",
+              "State": "Typing",
+              "Type": "Amount"
+            }
+          ]
+        },
+        {
+          "pageId": "6:4447",
+          "pageName": "      ↳ Section Header ",
+          "setId": "13396:18806",
+          "setName": "Section header",
+          "expectedCombinationCount": 12,
+          "definedComponentCount": 8,
+          "unrepresentedCombinationCount": 4,
+          "sampleUnrepresentedTuples": [
+            {
+              "Have button": "Off",
+              "Size": "lg",
+              "Type": "List item"
+            },
+            {
+              "Have button": "Off",
+              "Size": "sm",
+              "Type": "List item"
+            },
+            {
+              "Have button": "On",
+              "Size": "lg",
+              "Type": "List item"
+            },
+            {
+              "Have button": "On",
+              "Size": "sm",
+              "Type": "List item"
+            }
+          ]
+        },
+        {
+          "pageId": "6:4454",
+          "pageName": "      ↳ Badge ",
+          "setId": "4690:7815",
+          "setName": "Badge",
+          "expectedCombinationCount": 216,
+          "definedComponentCount": 198,
+          "unrepresentedCombinationCount": 18,
+          "sampleUnrepresentedTuples": [
+            {
+              "Color": "White",
+              "Icon": "Dot",
+              "Size": "lg",
+              "Type": "Round"
+            },
+            {
+              "Color": "White",
+              "Icon": "Dot",
+              "Size": "md",
+              "Type": "Round"
+            },
+            {
+              "Color": "White",
+              "Icon": "Dot",
+              "Size": "sm",
+              "Type": "Round"
+            },
+            {
+              "Color": "White",
+              "Icon": "False",
+              "Size": "lg",
+              "Type": "Round"
+            },
+            {
+              "Color": "White",
+              "Icon": "False",
+              "Size": "md",
+              "Type": "Round"
+            },
+            {
+              "Color": "White",
+              "Icon": "False",
+              "Size": "sm",
+              "Type": "Round"
+            }
+          ]
+        },
+        {
+          "pageId": "6:4698",
+          "pageName": "💜 Icons ",
+          "setId": "9931:6424",
+          "setName": "Icon/Bank",
+          "expectedCombinationCount": 130,
+          "definedComponentCount": 128,
+          "unrepresentedCombinationCount": 2,
+          "sampleUnrepresentedTuples": [
+            {
+              "Active": "Off",
+              "Type": "VID Public"
+            },
+            {
+              "Active": "On",
+              "Type": "PBVN"
+            }
+          ]
+        },
+        {
+          "pageId": "6:4698",
+          "pageName": "💜 Icons ",
+          "setId": "11786:1560",
+          "setName": "Icon/ Weather",
+          "expectedCombinationCount": 18,
+          "definedComponentCount": 12,
+          "unrepresentedCombinationCount": 6,
+          "sampleUnrepresentedTuples": [
+            {
+              "Time": "Night",
+              "Type": "Broken Clouds"
+            },
+            {
+              "Time": "Night",
+              "Type": "Mist"
+            },
+            {
+              "Time": "Night",
+              "Type": "Scatterd Clouds"
+            },
+            {
+              "Time": "Night",
+              "Type": "Shower Rain"
+            },
+            {
+              "Time": "Night",
+              "Type": "Snow"
+            },
+            {
+              "Time": "Night",
+              "Type": "Thunder Storm"
+            }
+          ]
+        },
+        {
+          "pageId": "6:4698",
+          "pageName": "💜 Icons ",
+          "setId": "9992:5579",
+          "setName": "Icon/Payment method",
+          "expectedCombinationCount": 12,
+          "definedComponentCount": 9,
+          "unrepresentedCombinationCount": 3,
+          "sampleUnrepresentedTuples": [
+            {
+              "Active": "Off",
+              "Type": "ATM"
+            },
+            {
+              "Active": "Off",
+              "Type": "Thẻ quốc tế"
+            },
+            {
+              "Active": "Off",
+              "Type": "VietQR"
+            }
+          ]
+        }
+      ]
+    },
+    "sourceReadErrors": [
+      {
+        "pageId": "11685:4223",
+        "pageName": "      ↳ Menu Bar ",
+        "field": "componentProperties",
+        "nodeName": "Card",
+        "message": "Error: in get_componentProperties: Component set for node has existing errors",
+        "affectedNodeCount": 13,
+        "nodeIds": [
+          "I12548:6705;35177:69443;31780:18214",
+          "I12548:6705;35177:69443;31780:18215",
+          "I12548:6705;35177:69443;31780:18216",
+          "I12548:6705;35177:69443;31780:18217",
+          "I12548:6705;35177:69443;31780:18218",
+          "I12548:6705;35177:69443;31780:18219",
+          "I13466:12606;35177:69443;31780:18214",
+          "I13466:12606;35177:69443;31780:18215",
+          "I13466:12606;35177:69443;31780:18216",
+          "I13466:12606;35177:69443;31780:18217",
+          "I13466:12606;35177:69443;31780:18218",
+          "I13466:12606;35177:69443;31780:18219",
+          "I16793:23347;46322:117596"
+        ]
+      },
+      {
+        "pageId": "6:4447",
+        "pageName": "      ↳ Section Header ",
+        "field": "componentProperties",
+        "nodeName": "Widget/ Group/ Internet",
+        "message": "Error: in get_componentProperties: Component set for node has existing errors",
+        "affectedNodeCount": 1,
+        "nodeIds": [
+          "I13395:17811;32476:49101"
+        ]
+      },
+      {
+        "pageId": "6144:2616",
+        "pageName": "🧩 Screenshots on Store",
+        "field": "componentProperties",
+        "nodeName": "Icon/Service detail",
+        "message": "Error: in get_componentProperties: Component set for node has existing errors",
+        "affectedNodeCount": 8,
+        "nodeIds": [
+          "8309:43774",
+          "8309:43823",
+          "8309:43879",
+          "8309:43900",
+          "8309:42109",
+          "8309:42480",
+          "8309:43644",
+          "8309:42689"
+        ]
+      }
+    ],
+    "statusMarkers": {
+      "completedBadgePages": [
+        {
+          "pageId": "10352:33966",
+          "pageName": "🔲 Sheets",
+          "marker": "COMPLETED",
+          "nodeCount": 2,
+          "nodeIds": [
+            "10352:33985",
+            "I10357:292;10352:33985"
+          ]
+        },
+        {
+          "pageId": "10371:1556",
+          "pageName": "🔰 Spacing, Radius & Grids ",
+          "marker": "COMPLETED",
+          "nodeCount": 4,
+          "nodeIds": [
+            "I10371:7172;10357:292;10352:33985",
+            "I10371:8626;10357:292;10352:33985",
+            "I10373:1187;10357:292;10352:33985",
+            "I10373:2043;10357:292;10352:33985"
+          ]
+        },
+        {
+          "pageId": "11034:74977",
+          "pageName": "      ↳ Progress Bar",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I11034:74981;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "11034:81157",
+          "pageName": "      ↳ Banner",
+          "marker": "COMPLETED",
+          "nodeCount": 3,
+          "nodeIds": [
+            "I12491:88;10371:695;10357:289;10352:33985",
+            "I15131:2307;10371:695;10357:289;10352:33985",
+            "I12489:16357;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "116:8627",
+          "pageName": "      ↳ Empty State ",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10432:343;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "116:9437",
+          "pageName": "      ↳ Information Message ",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10432:430;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "11685:4223",
+          "pageName": "      ↳ Menu Bar ",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I11685:4240;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "11852:10817",
+          "pageName": "      ↳ Switch Languages ",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I11852:10862;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "11882:699",
+          "pageName": "      ↳ OTP ",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I11882:700;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "12029:7471",
+          "pageName": "      ↳ Steps",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I12029:7472;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "12834:5716",
+          "pageName": "      ↳ Select Location  ",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I12834:5717;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "12841:296",
+          "pageName": "      ↳ Keyboard ",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I12841:297;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "12874:1530",
+          "pageName": "      ↳ Contextual Menu",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I12874:1538;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "15520:717",
+          "pageName": "      ↳ Mini App",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I15520:718;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "16292:8097",
+          "pageName": "      ↳ Support - Native",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I16292:8098;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "26:25074",
+          "pageName": "      ↳ Status",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10439:11519;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "4:3100",
+          "pageName": "      ↳ Buttons ",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10373:37012;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "4475:2",
+          "pageName": "      ↳ Tooltip ",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10439:11908;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4428",
+          "pageName": "      ↳ Alert",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10376:13041;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4429",
+          "pageName": "      ↳ Avatar",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10376:13883;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4430",
+          "pageName": "      ↳ Bottomsheet ",
+          "marker": "COMPLETED",
+          "nodeCount": 2,
+          "nodeIds": [
+            "I10376:13907;10371:695;10357:289;10352:33985",
+            "I10376:13959;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4432",
+          "pageName": "      ↳ Cell item",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10376:14132;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4433",
+          "pageName": "      ↳ Checkbox & Radio Option ",
+          "marker": "COMPLETED",
+          "nodeCount": 2,
+          "nodeIds": [
+            "I10376:14176;10371:695;10357:289;10352:33985",
+            "I10376:14271;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4434",
+          "pageName": "      ↳ Filter",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10376:14293;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4435",
+          "pageName": "      ↳ Circular Button",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10432:240;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4437",
+          "pageName": "      ↳ Divider ",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10432:259;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4438",
+          "pageName": "      ↳ Instruction ",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10435:3365;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4439",
+          "pageName": "      ↳ Introduction",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10437:4522;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4440",
+          "pageName": "      ↳ Overlay ",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10437:5026;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4441",
+          "pageName": "      ↳ Popup ",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10439:5065;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4442",
+          "pageName": "      ↳ Navigation Option",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10439:5046;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4443",
+          "pageName": "      ↳ Nudge",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10437:5007;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4445",
+          "pageName": "      ↳ Skeleton Loading ",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10439:5084;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4446",
+          "pageName": "      ↳ Inputs ",
+          "marker": "COMPLETED",
+          "nodeCount": 4,
+          "nodeIds": [
+            "I10439:5894;10371:695;10357:289;10352:33985",
+            "I10439:6964;10371:695;10357:289;10352:33985",
+            "I10439:7830;10371:695;10357:289;10352:33985",
+            "I10439:7850;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4447",
+          "pageName": "      ↳ Section Header ",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10439:5167;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4450",
+          "pageName": "      ↳ Snack Message",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10439:7887;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4451",
+          "pageName": "      ↳ Snackbar",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10439:7906;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4452",
+          "pageName": "      ↳ Toggle ",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10439:11500;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4453",
+          "pageName": "      ↳ Tabs",
+          "marker": "COMPLETED",
+          "nodeCount": 3,
+          "nodeIds": [
+            "I10439:11556;10371:695;10357:289;10352:33985",
+            "I14004:2383;10371:695;10357:289;10352:33985",
+            "I14004:9148;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4454",
+          "pageName": "      ↳ Badge ",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10439:11820;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4456",
+          "pageName": "      ↳ Top Navigation",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10439:11889;10371:695;10357:289;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4693",
+          "pageName": "🌈 Styles & Foundations ",
+          "marker": "COMPLETED",
+          "nodeCount": 6,
+          "nodeIds": [
+            "I10358:1270;10357:292;10352:33985",
+            "I10359:1121;10357:292;10352:33985",
+            "I10365:25346;10357:292;10352:33985",
+            "I10365:30131;10357:292;10352:33985",
+            "I10369:660;10357:292;10352:33985",
+            "I10371:521;10357:292;10352:33985"
+          ]
+        },
+        {
+          "pageId": "6:4698",
+          "pageName": "💜 Icons ",
+          "marker": "COMPLETED",
+          "nodeCount": 3,
+          "nodeIds": [
+            "I11647:26736;10357:292;10352:33985",
+            "I13698:16656;10357:292;10352:33985",
+            "I13698:16673;10357:292;10352:33985"
+          ]
+        },
+        {
+          "pageId": "8097:6479",
+          "pageName": "      ↳ Pagination",
+          "marker": "COMPLETED",
+          "nodeCount": 1,
+          "nodeIds": [
+            "I10439:11946;10371:695;10357:289;10352:33985"
+          ]
+        }
+      ],
+      "draftBadgePages": [],
+      "draftNamedPages": [
+        {
+          "pageId": "11847:2471",
+          "pageName": "🚧 Draft",
+          "componentSetCount": 12,
+          "componentCount": 205
+        }
+      ],
+      "pagesWithoutCompletedOrDraftBadge": [
+        {
+          "pageId": "10357:22981",
+          "pageName": "---"
+        },
+        {
+          "pageId": "10371:713",
+          "pageName": "🔲 Table of Contents"
+        },
+        {
+          "pageId": "11436:5",
+          "pageName": "🔲 Guideline: Adapting Liquid Glass"
+        },
+        {
+          "pageId": "11647:32064",
+          "pageName": "🎨 Logo & App icon"
+        },
+        {
+          "pageId": "11847:2471",
+          "pageName": "🚧 Draft"
+        },
+        {
+          "pageId": "12834:4574",
+          "pageName": "🎛 APPLICATION COMPONENTS"
+        },
+        {
+          "pageId": "12834:4576",
+          "pageName": "---"
+        },
+        {
+          "pageId": "2042:741",
+          "pageName": "📌 Change Log"
+        },
+        {
+          "pageId": "21:21133",
+          "pageName": "🎛 COMPONENTS"
+        },
+        {
+          "pageId": "4694:20215",
+          "pageName": "---"
+        },
+        {
+          "pageId": "6:4458",
+          "pageName": "---"
+        },
+        {
+          "pageId": "6:4459",
+          "pageName": "👀 Cover"
+        },
+        {
+          "pageId": "6:4662",
+          "pageName": "---"
+        },
+        {
+          "pageId": "6:4697",
+          "pageName": "🏞 Illustrations"
+        },
+        {
+          "pageId": "6144:2616",
+          "pageName": "🧩 Screenshots on Store"
+        },
+        {
+          "pageId": "8550:11451",
+          "pageName": "✉️ Email Template"
+        }
+      ]
+    }
+  },
+  "editorialInterpretation": {
+    "approvalConclusion": "No approval conclusion is inferred from source badges, page names, or the absence of a badge.",
+    "reviewRisks": [
+      "The page titled 🚧 Draft contains component sets. Keep its draft provenance distinct from pages with visible COMPLETED markers.",
+      "Unrepresented Cartesian combinations in eight sets are not proof of missing designs. Document only tuples represented by source components unless a designer confirms other combinations.",
+      "Property reads failed for nested instances on three pages because their referenced component sets have existing errors. Preserve error evidence and avoid claiming a complete property schema for those instances.",
+      "The separate token review documents source naming, unit, style, and platform coverage issues; keep them alongside this component review without merging inferred corrections into source facts."
+    ]
+  }
+}

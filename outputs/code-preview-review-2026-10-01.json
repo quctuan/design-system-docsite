@@ -1,0 +1,38 @@
+{
+  "updatedAt": "2026-10-01T04:36:45.123443+00:00",
+  "componentPages": 40,
+  "actualVariants": 571,
+  "previewCoverage": {
+    "components": 40,
+    "cases": 571,
+    "issues": [],
+    "unknownUtilities": []
+  },
+  "browserChecks": {
+    "defaultGeometryCases": 40,
+    "missingLeafAssets": 0,
+    "previewSourceMatchesCode": true,
+    "copyPromptIncludesActualSourceAndVariant": true,
+    "buttonsUsageFilterAndViewCode": true,
+    "toggleSwitchChangesActualVariant": true,
+    "inputAcceptsTyping": true,
+    "bottomsheetCloseAndReopen": true,
+    "bottomsheetHomeIndicator": {
+      "width": 134,
+      "height": 5,
+      "left": 121,
+      "parentWidth": 375
+    },
+    "keyboardSymbolsCentered": true,
+    "offlineDependencyRestore": true,
+    "invalidCalcExpressions": 0
+  },
+  "implementation": "browser HTML/CSS/JavaScript previews, native Swift/Kotlin/Java design specifications",
+  "fontMeasurementTolerance": "All 40 default geometries match source within 1 CSS px, allowing system font text width rounding.",
+  "productionChecks": {
+    "previewCodeMatchesLocalBuild": true,
+    "copyPromptContainsShownCode": true,
+    "bottomsheetHomeIndicatorCentered": true,
+    "productionURL": "https://vnpt-design-system.vercel.app"
+  }
+}

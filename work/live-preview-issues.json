@@ -1,0 +1,39 @@
+[
+  {
+    "id": "12500:10949",
+    "error": "SFSymbol is not defined"
+  },
+  {
+    "id": "3888:49",
+    "rendered": "4:3818",
+    "reason": "Source branch does not match variant"
+  },
+  {
+    "id": "4045:4",
+    "rendered": "4:3818",
+    "reason": "Source branch does not match variant"
+  },
+  {
+    "id": "16060:1512",
+    "name": "Steps",
+    "reason": "No high fidelity context available"
+  },
+  {
+    "id": "15131:2335",
+    "name": "Banner",
+    "reason": "No high fidelity context available"
+  },
+  {
+    "id": "12490:1924",
+    "name": "Banner",
+    "reason": "No high fidelity context available"
+  },
+  {
+    "id": "12841:524",
+    "error": "SFSymbol is not defined"
+  },
+  {
+    "id": "14221:31238",
+    "error": "SFSymbol is not defined"
+  }
+]

@@ -1,0 +1,231 @@
+{
+  "calls": 16,
+  "savedParts": 16,
+  "results": [
+    {
+      "kind": "variable",
+      "batchIndex": 0,
+      "requestedCount": 50,
+      "status": "complete",
+      "savedParts": [
+        0
+      ],
+      "header": {
+        "chunks": 1,
+        "byteLength": 36855,
+        "checksum": 172543808
+      }
+    },
+    {
+      "kind": "variable",
+      "batchIndex": 1,
+      "requestedCount": 50,
+      "status": "complete",
+      "savedParts": [
+        0
+      ],
+      "header": {
+        "chunks": 1,
+        "byteLength": 33206,
+        "checksum": 132913224
+      }
+    },
+    {
+      "kind": "variable",
+      "batchIndex": 2,
+      "requestedCount": 50,
+      "status": "complete",
+      "savedParts": [
+        0
+      ],
+      "header": {
+        "chunks": 1,
+        "byteLength": 34071,
+        "checksum": 4233644833
+      }
+    },
+    {
+      "kind": "variable",
+      "batchIndex": 3,
+      "requestedCount": 50,
+      "status": "complete",
+      "savedParts": [
+        0
+      ],
+      "header": {
+        "chunks": 1,
+        "byteLength": 32467,
+        "checksum": 1601189917
+      }
+    },
+    {
+      "kind": "variable",
+      "batchIndex": 4,
+      "requestedCount": 50,
+      "status": "complete",
+      "savedParts": [
+        0
+      ],
+      "header": {
+        "chunks": 1,
+        "byteLength": 31427,
+        "checksum": 954616105
+      }
+    },
+    {
+      "kind": "variable",
+      "batchIndex": 5,
+      "requestedCount": 50,
+      "status": "complete",
+      "savedParts": [
+        0
+      ],
+      "header": {
+        "chunks": 1,
+        "byteLength": 32432,
+        "checksum": 3339267991
+      }
+    },
+    {
+      "kind": "variable",
+      "batchIndex": 6,
+      "requestedCount": 50,
+      "status": "complete",
+      "savedParts": [
+        0
+      ],
+      "header": {
+        "chunks": 1,
+        "byteLength": 33962,
+        "checksum": 2519798401
+      }
+    },
+    {
+      "kind": "variable",
+      "batchIndex": 7,
+      "requestedCount": 50,
+      "status": "complete",
+      "savedParts": [
+        0
+      ],
+      "header": {
+        "chunks": 1,
+        "byteLength": 34497,
+        "checksum": 239103568
+      }
+    },
+    {
+      "kind": "variable",
+      "batchIndex": 8,
+      "requestedCount": 50,
+      "status": "complete",
+      "savedParts": [
+        0
+      ],
+      "header": {
+        "chunks": 1,
+        "byteLength": 32627,
+        "checksum": 889475891
+      }
+    },
+    {
+      "kind": "variable",
+      "batchIndex": 9,
+      "requestedCount": 50,
+      "status": "complete",
+      "savedParts": [
+        0
+      ],
+      "header": {
+        "chunks": 1,
+        "byteLength": 37734,
+        "checksum": 704983036
+      }
+    },
+    {
+      "kind": "variable",
+      "batchIndex": 10,
+      "requestedCount": 50,
+      "status": "complete",
+      "savedParts": [
+        0
+      ],
+      "header": {
+        "chunks": 1,
+        "byteLength": 35101,
+        "checksum": 3878938497
+      }
+    },
+    {
+      "kind": "variable",
+      "batchIndex": 11,
+      "requestedCount": 20,
+      "status": "complete",
+      "savedParts": [
+        0
+      ],
+      "header": {
+        "chunks": 1,
+        "byteLength": 14185,
+        "checksum": 2606206513
+      }
+    },
+    {
+      "kind": "style",
+      "batchIndex": 0,
+      "requestedCount": 50,
+      "status": "complete",
+      "savedParts": [
+        0
+      ],
+      "header": {
+        "chunks": 1,
+        "byteLength": 38703,
+        "checksum": 786876581
+      }
+    },
+    {
+      "kind": "style",
+      "batchIndex": 1,
+      "requestedCount": 50,
+      "status": "complete",
+      "savedParts": [
+        0
+      ],
+      "header": {
+        "chunks": 1,
+        "byteLength": 41800,
+        "checksum": 3350329760
+      }
+    },
+    {
+      "kind": "style",
+      "batchIndex": 2,
+      "requestedCount": 50,
+      "status": "complete",
+      "savedParts": [
+        0
+      ],
+      "header": {
+        "chunks": 1,
+        "byteLength": 50541,
+        "checksum": 2344933883
+      }
+    },
+    {
+      "kind": "style",
+      "batchIndex": 3,
+      "requestedCount": 42,
+      "status": "complete",
+      "savedParts": [
+        0
+      ],
+      "header": {
+        "chunks": 1,
+        "byteLength": 39011,
+        "checksum": 3618861955
+      }
+    }
+  ],
+  "errors": []
+}

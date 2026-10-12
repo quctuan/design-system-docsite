@@ -1,0 +1,23 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="2.68871" height="5.76835" viewBox="0 0 2.68871 5.76835" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Vector" filter="url(#filter0_i_0_295)">
+<path d="M2.47291 4.86686C2.47291 4.61235 2.55156 4.37532 2.68871 4.17715C1.91222 2.83075 1.30515 1.42995 0.879588 0.00777162C0.855386 0.00582876 0.833201 0.00388572 0.811015 0C0.246295 1.81657 -0.0279972 3.76721 0.00225567 5.76835C0.837235 5.5935 1.6702 5.36424 2.49509 5.08252C2.48097 5.01064 2.47291 4.93875 2.47291 4.86686Z" fill="url(#paint0_radial_0_295)"/>
+</g>
+<defs>
+<filter id="filter0_i_0_295" x="0" y="0" width="2.68871" height="7.44652" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1.67816"/>
+<feGaussianBlur stdDeviation="1.25862"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.4 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_0_295"/>
+</filter>
+<radialGradient id="paint0_radial_0_295" cx="0" cy="0" r="1" gradientTransform="matrix(-1.70453 7.62156 -3.58496 -4.21519 2.46032 -1.29261)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#95BBFA"/>
+<stop offset="0.325682" stop-color="#0373FD"/>
+<stop offset="0.726086" stop-color="#077AE7"/>
+<stop offset="1" stop-color="#3BA9F4"/>
+</radialGradient>
+</defs>
+</svg>

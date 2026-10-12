@@ -1,0 +1,218 @@
+[
+  {
+    "name": "_Global Colors",
+    "expectedTokenCountFromScreenshot": 250,
+    "uniqueTokenCount": 250,
+    "matchesScreenshot": true,
+    "modeCount": 1,
+    "modes": [
+      "Value"
+    ],
+    "valueCount": 250,
+    "typesByValueCount": {
+      "color": 250
+    },
+    "aliasValueCount": 0,
+    "hiddenFromPublishingValueCount": 250,
+    "groups": {
+      "Base": 2,
+      "White-Alpha": 9,
+      "Black-Alpha": 9,
+      "Light": 120,
+      "Dark": 110
+    },
+    "modeTokenCounts": {
+      "Value": 250
+    },
+    "modeNameDifferences": {
+      "Value": []
+    }
+  },
+  {
+    "name": "_Global Dimension",
+    "expectedTokenCountFromScreenshot": 29,
+    "uniqueTokenCount": 29,
+    "matchesScreenshot": true,
+    "modeCount": 1,
+    "modes": [
+      "Mode 1"
+    ],
+    "valueCount": 29,
+    "typesByValueCount": {
+      "number": 29
+    },
+    "aliasValueCount": 0,
+    "hiddenFromPublishingValueCount": 0,
+    "groups": {
+      "0x": 1,
+      "2x": 1,
+      "4x": 1,
+      "6x": 1,
+      "8x": 1,
+      "10x": 1,
+      "12x": 1,
+      "14x": 1,
+      "16x": 1,
+      "18x": 1,
+      "20x": 1,
+      "24x": 1,
+      "26x": 1,
+      "28x": 1,
+      "30x": 1,
+      "32x": 1,
+      "36x": 1,
+      "40x": 1,
+      "44x": 1,
+      "48x": 1,
+      "52x": 1,
+      "56x": 1,
+      "60x": 1,
+      "64x": 1,
+      "80x": 1,
+      "96x": 1,
+      "128x": 1,
+      "160x": 1,
+      "999x": 1
+    },
+    "modeTokenCounts": {
+      "Mode 1": 29
+    },
+    "modeNameDifferences": {
+      "Mode 1": []
+    }
+  },
+  {
+    "name": "1. Color modes",
+    "expectedTokenCountFromScreenshot": 86,
+    "uniqueTokenCount": 86,
+    "matchesScreenshot": true,
+    "modeCount": 2,
+    "modes": [
+      "VIBE CLUB",
+      "VNPT"
+    ],
+    "valueCount": 172,
+    "typesByValueCount": {
+      "color": 172
+    },
+    "aliasValueCount": 172,
+    "hiddenFromPublishingValueCount": 0,
+    "groups": {
+      "content": 52,
+      "border": 24,
+      "bg": 60,
+      "transparent": 36
+    },
+    "modeTokenCounts": {
+      "VIBE CLUB": 86,
+      "VNPT": 86
+    },
+    "modeNameDifferences": {
+      "VIBE CLUB": [],
+      "VNPT": []
+    }
+  },
+  {
+    "name": "2. Radius",
+    "expectedTokenCountFromScreenshot": 12,
+    "uniqueTokenCount": 12,
+    "matchesScreenshot": true,
+    "modeCount": 1,
+    "modes": [
+      "Mode 1"
+    ],
+    "valueCount": 12,
+    "typesByValueCount": {
+      "number": 12
+    },
+    "aliasValueCount": 12,
+    "hiddenFromPublishingValueCount": 0,
+    "groups": {
+      "radius-none": 1,
+      "radius-2x": 1,
+      "radius-4x": 1,
+      "radius-6x": 1,
+      "radius-8x": 1,
+      "radius-10x": 1,
+      "radius-12x": 1,
+      "radius-16x": 1,
+      "radius-20x": 1,
+      "radius-24x": 1,
+      "radius-32x": 1,
+      "radius-full": 1
+    },
+    "modeTokenCounts": {
+      "Mode 1": 12
+    },
+    "modeNameDifferences": {
+      "Mode 1": []
+    }
+  },
+  {
+    "name": "3. Spacing",
+    "expectedTokenCountFromScreenshot": 17,
+    "uniqueTokenCount": 17,
+    "matchesScreenshot": true,
+    "modeCount": 1,
+    "modes": [
+      "Mode 1"
+    ],
+    "valueCount": 17,
+    "typesByValueCount": {
+      "number": 17
+    },
+    "aliasValueCount": 17,
+    "hiddenFromPublishingValueCount": 0,
+    "groups": {
+      "spacing-none": 1,
+      "spacing-2x": 1,
+      "spacing-4x": 1,
+      "spacing-6x": 1,
+      "spacing-8x": 1,
+      "spacing-12x": 1,
+      "spacing-16x": 1,
+      "spacing-20x": 1,
+      "spacing-24x": 1,
+      "spacing-32x": 1,
+      "spacing-40x": 1,
+      "spacing-48x": 1,
+      "spacing-64x": 1,
+      "spacing-80x": 1,
+      "spacing-96x": 1,
+      "spacing-128x": 1,
+      "spacing-160x": 1
+    },
+    "modeTokenCounts": {
+      "Mode 1": 17
+    },
+    "modeNameDifferences": {
+      "Mode 1": []
+    }
+  },
+  {
+    "name": "4. Typography",
+    "expectedTokenCountFromScreenshot": 26,
+    "uniqueTokenCount": 26,
+    "matchesScreenshot": true,
+    "modeCount": 1,
+    "modes": [
+      "Mode 1"
+    ],
+    "valueCount": 26,
+    "typesByValueCount": {
+      "string": 5,
+      "number": 21
+    },
+    "aliasValueCount": 21,
+    "hiddenFromPublishingValueCount": 0,
+    "groups": {
+      "font": 26
+    },
+    "modeTokenCounts": {
+      "Mode 1": 26
+    },
+    "modeNameDifferences": {
+      "Mode 1": []
+    }
+  }
+]

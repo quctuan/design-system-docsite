@@ -1,0 +1,72 @@
+{
+  "updatedAt": "2026-10-01T04:43:26.026Z",
+  "deploymentId": "dpl_6CLqAA1JWFazajYPpGjdkADh5oNx",
+  "productionUrl": "https://vnpt-design-system.vercel.app",
+  "deploymentUrl": "https://vnpt-design-system-k2k5em39p-quoctuan161299-3982s-projects.vercel.app",
+  "state": "READY",
+  "publicAnonymousAccessVerified": true,
+  "publicChecks": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 16903,
+      "cors": "*"
+    },
+    {
+      "path": "/docs/components/bottomsheet",
+      "status": 200,
+      "bytes": 47933,
+      "cors": "*"
+    },
+    {
+      "path": "/docs/components/buttons",
+      "status": 200,
+      "bytes": 247038,
+      "cors": "*"
+    },
+    {
+      "path": "/docs/components/inputs",
+      "status": 200,
+      "bytes": 92849,
+      "cors": "*"
+    },
+    {
+      "path": "/data/preview-coverage.json",
+      "status": 200,
+      "bytes": 63,
+      "cors": "*",
+      "cases": 571
+    },
+    {
+      "path": "/data/previews/bottomsheet.json",
+      "status": 200,
+      "bytes": 1801,
+      "cors": "*"
+    },
+    {
+      "path": "/previews/bottomsheet/4797-1182.html",
+      "status": 200,
+      "bytes": 40581,
+      "cors": "*",
+      "sameSourceAsLocal": true
+    },
+    {
+      "path": "/data/component-assets/buttons.json",
+      "status": 200,
+      "bytes": 9909,
+      "cors": "*"
+    },
+    {
+      "path": "/registry.json",
+      "status": 200,
+      "bytes": 31079,
+      "cors": "*"
+    },
+    {
+      "path": "/agents.md",
+      "status": 200,
+      "bytes": 3168,
+      "cors": "*"
+    }
+  ]
+}

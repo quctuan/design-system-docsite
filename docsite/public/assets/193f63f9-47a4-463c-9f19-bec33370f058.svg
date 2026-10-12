@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="26.6667" height="26.6667" viewBox="0 0 26.6667 26.6667" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Live area" clip-path="url(#clip0_0_44)">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M9.83662 3.5484C11.3606 0.805162 15.3059 0.805153 16.8299 3.54839L25.6312 19.3907C27.1124 22.0568 25.1845 25.3333 22.1345 25.3333H4.53196C1.48202 25.3333 -0.445851 22.0568 1.03533 19.3907L9.83662 3.5484ZM13.3333 16.3333C14.2538 16.3333 15 15.5871 15 14.6667V8C15 7.07953 14.2538 6.33333 13.3333 6.33333C12.4129 6.33333 11.6667 7.07953 11.6667 8V14.6667C11.6667 15.5871 12.4129 16.3333 13.3333 16.3333ZM15.3333 20.6667C15.3333 19.5621 14.4379 18.6667 13.3333 18.6667C12.2288 18.6667 11.3333 19.5621 11.3333 20.6667C11.3333 21.7712 12.2288 22.6667 13.3333 22.6667C14.4379 22.6667 15.3333 21.7712 15.3333 20.6667Z" fill="url(#paint0_linear_0_44)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_44" x1="11.4002" y1="10.589" x2="21.6512" y2="25.9025" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFBE40"/>
+<stop offset="1" stop-color="#FFCD69"/>
+</linearGradient>
+<clipPath id="clip0_0_44">
+<rect width="26.6667" height="26.6667" fill="white"/>
+</clipPath>
+</defs>
+</svg>

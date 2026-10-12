@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "testedAt": "2026-09-30",
+  "desktopViewport": [1280, 800],
+  "mobileViewport": [390, 844],
+  "checks": {
+    "previewCodeTabs": true,
+    "installationManualTab": true,
+    "alertVariantMultipleWithButtons": true,
+    "liveSvgAssetsNonEmptyAndLoaded": true,
+    "alertDimensions": [343, 56],
+    "tokenSearchAcrossBrands": true,
+    "defaultVnptVisibleValues": 86,
+    "vibeClubBrandValue": "bg/brand/strong = #6E12FF",
+    "tokenDetailDialog": true,
+    "darkThemeBackground": "rgb(10, 10, 10)",
+    "mobileDocumentWidth": 375,
+    "mobileTableContainedScroll": true,
+    "mobileNavigation": true,
+    "toggleAriaChecked": true,
+    "toggleDimensions": [52, 32],
+    "browserConsoleErrors": 0
+  }
+}

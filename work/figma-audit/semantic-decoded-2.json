@@ -1,0 +1,465 @@
+[
+  {
+    "pageId": "10371:713",
+    "key": "semantic-10371-713",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 0,
+      "components": 0,
+      "imageFillNodes": 0,
+      "nodes": 195,
+      "textNodes": 46,
+      "types": {
+        "FRAME": 102,
+        "GROUP": 1,
+        "INSTANCE": 1,
+        "SECTION": 1,
+        "TEXT": 46,
+        "VECTOR": 44
+      }
+    },
+    "texts": 46,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "11647:32064",
+    "key": "semantic-11647-32064",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 0,
+      "components": 0,
+      "imageFillNodes": 16,
+      "nodes": 246,
+      "textNodes": 10,
+      "types": {
+        "BOOLEAN_OPERATION": 14,
+        "ELLIPSE": 54,
+        "FRAME": 21,
+        "GROUP": 27,
+        "INSTANCE": 8,
+        "RECTANGLE": 27,
+        "SECTION": 1,
+        "TEXT": 10,
+        "VECTOR": 84
+      }
+    },
+    "texts": 8,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "6:4693",
+    "key": "semantic-6-4693",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 0,
+      "components": 0,
+      "imageFillNodes": 1,
+      "nodes": 1547,
+      "textNodes": 575,
+      "types": {
+        "FRAME": 671,
+        "INSTANCE": 163,
+        "RECTANGLE": 90,
+        "TEXT": 575,
+        "VECTOR": 48
+      }
+    },
+    "texts": 436,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "6:4697",
+    "key": "semantic-6-4697",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 4,
+      "components": 94,
+      "imageFillNodes": 109,
+      "nodes": 3104,
+      "textNodes": 111,
+      "types": {
+        "BOOLEAN_OPERATION": 3,
+        "COMPONENT": 94,
+        "COMPONENT_SET": 4,
+        "ELLIPSE": 40,
+        "FRAME": 28,
+        "GROUP": 616,
+        "INSTANCE": 6,
+        "LINE": 10,
+        "RECTANGLE": 145,
+        "TEXT": 111,
+        "VECTOR": 2047
+      }
+    },
+    "texts": 105,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "21:21133",
+    "key": "semantic-21-21133",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 0,
+      "components": 0,
+      "imageFillNodes": 0,
+      "nodes": 0,
+      "textNodes": 0,
+      "types": {}
+    },
+    "texts": 0,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "4:3100",
+    "key": "semantic-4-3100",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 4,
+      "components": 120,
+      "imageFillNodes": 0,
+      "nodes": 1014,
+      "textNodes": 107,
+      "types": {
+        "COMPONENT": 120,
+        "COMPONENT_SET": 4,
+        "FRAME": 226,
+        "GROUP": 28,
+        "INSTANCE": 224,
+        "RECTANGLE": 4,
+        "TEXT": 107,
+        "VECTOR": 301
+      }
+    },
+    "texts": 24,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "6:4432",
+    "key": "semantic-6-4432",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 1,
+      "components": 2,
+      "imageFillNodes": 0,
+      "nodes": 84,
+      "textNodes": 23,
+      "types": {
+        "BOOLEAN_OPERATION": 2,
+        "COMPONENT": 2,
+        "COMPONENT_SET": 1,
+        "FRAME": 18,
+        "GROUP": 4,
+        "INSTANCE": 18,
+        "RECTANGLE": 1,
+        "TEXT": 23,
+        "VECTOR": 15
+      }
+    },
+    "texts": 14,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "12874:1530",
+    "key": "semantic-12874-1530",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 0,
+      "components": 1,
+      "imageFillNodes": 6,
+      "nodes": 275,
+      "textNodes": 45,
+      "types": {
+        "BOOLEAN_OPERATION": 1,
+        "COMPONENT": 1,
+        "ELLIPSE": 20,
+        "FRAME": 80,
+        "GROUP": 6,
+        "INSTANCE": 73,
+        "RECTANGLE": 9,
+        "SLOT": 1,
+        "TEXT": 45,
+        "VECTOR": 39
+      }
+    },
+    "texts": 36,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "6:4434",
+    "key": "semantic-6-4434",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 1,
+      "components": 2,
+      "imageFillNodes": 0,
+      "nodes": 111,
+      "textNodes": 18,
+      "types": {
+        "BOOLEAN_OPERATION": 2,
+        "COMPONENT": 2,
+        "COMPONENT_SET": 1,
+        "FRAME": 19,
+        "GROUP": 3,
+        "INSTANCE": 31,
+        "RECTANGLE": 13,
+        "TEXT": 18,
+        "VECTOR": 22
+      }
+    },
+    "texts": 15,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "6:4438",
+    "key": "semantic-6-4438",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 1,
+      "components": 2,
+      "imageFillNodes": 0,
+      "nodes": 29,
+      "textNodes": 9,
+      "types": {
+        "COMPONENT": 2,
+        "COMPONENT_SET": 1,
+        "FRAME": 8,
+        "INSTANCE": 6,
+        "TEXT": 9,
+        "VECTOR": 3
+      }
+    },
+    "texts": 8,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "6:4442",
+    "key": "semantic-6-4442",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 1,
+      "components": 2,
+      "imageFillNodes": 0,
+      "nodes": 179,
+      "textNodes": 27,
+      "types": {
+        "BOOLEAN_OPERATION": 4,
+        "COMPONENT": 2,
+        "COMPONENT_SET": 1,
+        "FRAME": 54,
+        "GROUP": 6,
+        "INSTANCE": 42,
+        "RECTANGLE": 2,
+        "TEXT": 27,
+        "VECTOR": 41
+      }
+    },
+    "texts": 11,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "8097:6479",
+    "key": "semantic-8097-6479",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 4,
+      "components": 10,
+      "imageFillNodes": 0,
+      "nodes": 58,
+      "textNodes": 7,
+      "types": {
+        "COMPONENT": 10,
+        "COMPONENT_SET": 4,
+        "FRAME": 6,
+        "INSTANCE": 28,
+        "RECTANGLE": 2,
+        "TEXT": 7,
+        "VECTOR": 1
+      }
+    },
+    "texts": 6,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "6:4445",
+    "key": "semantic-6-4445",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 1,
+      "components": 4,
+      "imageFillNodes": 0,
+      "nodes": 28,
+      "textNodes": 8,
+      "types": {
+        "COMPONENT": 4,
+        "COMPONENT_SET": 1,
+        "FRAME": 6,
+        "INSTANCE": 4,
+        "RECTANGLE": 4,
+        "TEXT": 8,
+        "VECTOR": 1
+      }
+    },
+    "texts": 7,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "26:25074",
+    "key": "semantic-26-25074",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 3,
+      "components": 12,
+      "imageFillNodes": 0,
+      "nodes": 56,
+      "textNodes": 22,
+      "types": {
+        "COMPONENT": 12,
+        "COMPONENT_SET": 3,
+        "ELLIPSE": 3,
+        "FRAME": 6,
+        "INSTANCE": 9,
+        "TEXT": 22,
+        "VECTOR": 1
+      }
+    },
+    "texts": 21,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "6:4456",
+    "key": "semantic-6-4456",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 1,
+      "components": 3,
+      "imageFillNodes": 0,
+      "nodes": 79,
+      "textNodes": 14,
+      "types": {
+        "COMPONENT": 3,
+        "COMPONENT_SET": 1,
+        "FRAME": 24,
+        "INSTANCE": 22,
+        "TEXT": 14,
+        "VECTOR": 15
+      }
+    },
+    "texts": 11,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "4475:2",
+    "key": "semantic-4475-2",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 1,
+      "components": 6,
+      "imageFillNodes": 0,
+      "nodes": 49,
+      "textNodes": 13,
+      "types": {
+        "COMPONENT": 6,
+        "COMPONENT_SET": 1,
+        "FRAME": 18,
+        "INSTANCE": 4,
+        "TEXT": 13,
+        "VECTOR": 7
+      }
+    },
+    "texts": 7,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "12834:4574",
+    "key": "semantic-12834-4574",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 0,
+      "components": 0,
+      "imageFillNodes": 0,
+      "nodes": 0,
+      "textNodes": 0,
+      "types": {}
+    },
+    "texts": 0,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "12841:296",
+    "key": "semantic-12841-296",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 1,
+      "components": 2,
+      "imageFillNodes": 0,
+      "nodes": 149,
+      "textNodes": 48,
+      "types": {
+        "COMPONENT": 2,
+        "COMPONENT_SET": 1,
+        "FRAME": 28,
+        "INSTANCE": 63,
+        "RECTANGLE": 2,
+        "TEXT": 48,
+        "VECTOR": 5
+      }
+    },
+    "texts": 48,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "16292:8097",
+    "key": "semantic-16292-8097",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 0,
+      "components": 1,
+      "imageFillNodes": 26,
+      "nodes": 457,
+      "textNodes": 66,
+      "types": {
+        "BOOLEAN_OPERATION": 4,
+        "COMPONENT": 1,
+        "CONNECTOR": 1,
+        "ELLIPSE": 12,
+        "FRAME": 145,
+        "GROUP": 10,
+        "INSTANCE": 119,
+        "RECTANGLE": 19,
+        "TEXT": 66,
+        "VECTOR": 80
+      }
+    },
+    "texts": 33,
+    "extractionErrors": 0
+  },
+  {
+    "pageId": "11847:2471",
+    "key": "semantic-11847-2471",
+    "schema": "figma-doc-content-v1",
+    "counts": {
+      "componentSets": 12,
+      "components": 205,
+      "imageFillNodes": 128,
+      "nodes": 10862,
+      "textNodes": 625,
+      "types": {
+        "BOOLEAN_OPERATION": 90,
+        "COMPONENT": 205,
+        "COMPONENT_SET": 12,
+        "ELLIPSE": 366,
+        "FRAME": 1910,
+        "GROUP": 1119,
+        "INSTANCE": 494,
+        "LINE": 600,
+        "POLYGON": 1,
+        "RECTANGLE": 996,
+        "SECTION": 3,
+        "TEXT": 625,
+        "VECTOR": 4441
+      }
+    },
+    "texts": 268,
+    "extractionErrors": 0
+  }
+]

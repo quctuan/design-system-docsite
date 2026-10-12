@@ -1,0 +1,15 @@
+{
+  "method": "JavaScript runtime smoke with DOM stub; actual browser render not verified because browser launch was blocked in this environment",
+  "result": {
+    "overview": 2965,
+    "pages": 1036,
+    "components": 881,
+    "tokens": 1334,
+    "styles": 782,
+    "findings": 3248447,
+    "architecture": 658639,
+    "vnptCount": "86 / 506 giá trị theo mode",
+    "guidelineHtmlBytes": 269392,
+    "dependencySection": true
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "radius-none": {
+    "$type": "number",
+    "$value": 0,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:4695:11151",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:da5db215557c505df27f30f1688d49f4ae92f6d1/-1:-1",
+        "targetVariableName": "0x",
+        "targetVariableSetId": "VariableCollectionId:147f764310cf53ed57a65dd6bd4a0f3f891c449b/-1:-1",
+        "targetVariableSetName": "_Global Dimension"
+      }
+    }
+  },
+  "radius-2x": {
+    "$type": "number",
+    "$value": 2,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:4695:11152",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:52eb93eb1f9b6179aad9fb280ba0636e75a7e228/-1:-1",
+        "targetVariableName": "2x",
+        "targetVariableSetId": "VariableCollectionId:147f764310cf53ed57a65dd6bd4a0f3f891c449b/-1:-1",
+        "targetVariableSetName": "_Global Dimension"
+      }
+    }
+  },
+  "radius-4x": {
+    "$type": "number",
+    "$value": 4,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:4695:11153",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:939ed6f964b1096f236d91adaf29bd544a679e63/-1:-1",
+        "targetVariableName": "4x",
+        "targetVariableSetId": "VariableCollectionId:147f764310cf53ed57a65dd6bd4a0f3f891c449b/-1:-1",
+        "targetVariableSetName": "_Global Dimension"
+      }
+    }
+  },
+  "radius-6x": {
+    "$type": "number",
+    "$value": 6,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:4695:11154",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:cff83ccc3a46ca612847169fe3f8ddf454042d5d/-1:-1",
+        "targetVariableName": "6x",
+        "targetVariableSetId": "VariableCollectionId:147f764310cf53ed57a65dd6bd4a0f3f891c449b/-1:-1",
+        "targetVariableSetName": "_Global Dimension"
+      }
+    }
+  },
+  "radius-8x": {
+    "$type": "number",
+    "$value": 8,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:4695:11155",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:d5bcfc808c77f256a3032870176d9791f20228ab/-1:-1",
+        "targetVariableName": "8x",
+        "targetVariableSetId": "VariableCollectionId:147f764310cf53ed57a65dd6bd4a0f3f891c449b/-1:-1",
+        "targetVariableSetName": "_Global Dimension"
+      }
+    }
+  },
+  "radius-10x": {
+    "$type": "number",
+    "$value": 10,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:4695:11156",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:61ebe69d6b0bc2c33b3ecf54552253dc24ce9dd7/-1:-1",
+        "targetVariableName": "10x",
+        "targetVariableSetId": "VariableCollectionId:147f764310cf53ed57a65dd6bd4a0f3f891c449b/-1:-1",
+        "targetVariableSetName": "_Global Dimension"
+      }
+    }
+  },
+  "radius-12x": {
+    "$type": "number",
+    "$value": 12,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:4695:11157",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:673423d039212c559de98e7bcd6ca982a6ac352f/-1:-1",
+        "targetVariableName": "12x",
+        "targetVariableSetId": "VariableCollectionId:147f764310cf53ed57a65dd6bd4a0f3f891c449b/-1:-1",
+        "targetVariableSetName": "_Global Dimension"
+      }
+    }
+  },
+  "radius-16x": {
+    "$type": "number",
+    "$value": 16,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:4695:11158",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:b61487b4e5ed0cf1b3a6a62fad9911de1e60074f/-1:-1",
+        "targetVariableName": "16x",
+        "targetVariableSetId": "VariableCollectionId:147f764310cf53ed57a65dd6bd4a0f3f891c449b/-1:-1",
+        "targetVariableSetName": "_Global Dimension"
+      }
+    }
+  },
+  "radius-20x": {
+    "$type": "number",
+    "$value": 20,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:4695:11159",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:a5dd31e25be77cb222c13aa20f9a992ec4ace5a1/-1:-1",
+        "targetVariableName": "20x",
+        "targetVariableSetId": "VariableCollectionId:147f764310cf53ed57a65dd6bd4a0f3f891c449b/-1:-1",
+        "targetVariableSetName": "_Global Dimension"
+      }
+    }
+  },
+  "radius-24x": {
+    "$type": "number",
+    "$value": 24,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:4695:11160",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:a8ba2dd3edc9f9487f1043835126c433ac86c428/-1:-1",
+        "targetVariableName": "24x",
+        "targetVariableSetId": "VariableCollectionId:147f764310cf53ed57a65dd6bd4a0f3f891c449b/-1:-1",
+        "targetVariableSetName": "_Global Dimension"
+      }
+    }
+  },
+  "radius-32x": {
+    "$type": "number",
+    "$value": 32,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:4695:11161",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:23f5ccb9158f6f2ab1d9ef55c1bb9d00001913c2/-1:-1",
+        "targetVariableName": "32x",
+        "targetVariableSetId": "VariableCollectionId:147f764310cf53ed57a65dd6bd4a0f3f891c449b/-1:-1",
+        "targetVariableSetName": "_Global Dimension"
+      }
+    }
+  },
+  "radius-full": {
+    "$type": "number",
+    "$value": 999,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:4695:11162",
+      "com.figma.scopes": [
+        "CORNER_RADIUS"
+      ],
+      "com.figma.aliasData": {
+        "targetVariableId": "VariableID:4cf7a122981949a644edf3ee9e51ba8d4db6a35e/-1:-1",
+        "targetVariableName": "999x",
+        "targetVariableSetId": "VariableCollectionId:147f764310cf53ed57a65dd6bd4a0f3f891c449b/-1:-1",
+        "targetVariableSetName": "_Global Dimension"
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "Mode 1"
+  }
+}
