@@ -1,4 +1,4 @@
-# VNPT Design System — bản lưu local
+# VNPT Design System
 
 Thư mục này chứa toàn bộ project docsite và các dữ liệu nguồn đã thu thập. Có thể tiếp tục sửa code, nội dung, tokens và chạy website trên laptop mà không đăng nhập ChatGPT, Figma hoặc Vercel.
 
